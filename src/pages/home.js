@@ -1,9 +1,9 @@
 import React from 'react'
-import '../assets/css/style.css';
+import '../assets/css/home.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import image1 from "../assets/images/h1.jpg";
 import image2 from "../assets/images/Hostel-Managemen-info.png";
 import image3 from "../assets/images/hostel-management-software1-1.jpg"
@@ -70,7 +70,7 @@ const home = () => {
         navigation
         autoplay={{ delay: 4000 }}
         loop
-        modules={[Navigation, Autoplay]}
+        modules={[ Autoplay]}
         className="swiper-container"
       >
         {slides.map((slide, index) => (
