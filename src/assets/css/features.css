@@ -167,7 +167,9 @@
     font-size: 18px;
     padding: 15px;
     object-fit: contain;
-    width: 100%;
+  }
+  .sub{
+    text-align: center;
   }
 
   .features-section{

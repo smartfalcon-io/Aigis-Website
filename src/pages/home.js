@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules";
-import image1 from "../assets/images/h1.jpg";
+import image1 from "../assets/images/pngtree-blue-business-technology-information-security-banner-background-image_260807.jpg";
 import image2 from "../assets/images/Hostel-Managemen-info.png";
 import image3 from "../assets/images/hostel-management-software1-1.jpg"
 import about from '../assets/images/about1.jpg';
@@ -67,7 +67,7 @@ const home = () => {
   return (
     <div className='home'>
        <Swiper
-        navigation
+        
         autoplay={{ delay: 4000 }}
         loop
         modules={[ Autoplay]}

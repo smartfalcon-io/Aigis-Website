@@ -249,9 +249,8 @@
         width: 100%;
     }
     .slide-image{
-        object-fit: cover;
+        object-fit: fill;
         height: 200px;
-        width: 100%;
     }
     .slide-content {
         font-size: 12px;
@@ -265,18 +264,30 @@
     }
 
    .home .section2{
-        margin-top: -200px;
+        margin-top: -300px;
+        width: 90%;
+    }
+
+    .home .section3{
+        width: 85%;
     }
     .feature-card {
         width: 90%;
     }
 
+    .features-section .features-container{
+        margin-left: 0px;
+    }
+
     .content-container .section-text {
         font-size: 15px;
         width: 100%;
-        margin-left: -10px;
+        margin-left: -30px;
     }
 
+   .about-section-container .image-container img{
+        margin-left: -40px;
+    }
     .feature-icon {
         font-size: 30px;
     }
@@ -287,7 +298,7 @@
     .management-container {
         padding: 15px;
         border-radius: 40px 0px 40px 0px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .about-section-container {
@@ -295,6 +306,7 @@
     }
 
     .bg-image .bg {
+        width: 90%;
         height: 200px;
         margin-left: 20px;
     }
@@ -304,7 +316,7 @@
     }
     .call-container .call{
         width: 150px;
-        margin-left: 110px;
+        margin-left: 80px;
     }
 
     .image-container .feature-image{
