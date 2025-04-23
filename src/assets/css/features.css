@@ -78,6 +78,9 @@
   object-fit: cover;
 }
 
+.sub{
+  text-align: center;
+}
 /* --- FEATURES SECTION --- */
 .features-section {
   padding: 50px 20px;
