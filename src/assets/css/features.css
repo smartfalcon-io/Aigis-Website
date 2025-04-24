@@ -1,4 +1,7 @@
-/* .features-header {
+/* 
+
+
+  .features-header {
     background: url('../images/Feature-Background.jpg') center/cover no-repeat;
     height: 350px;
     display: flex;
@@ -6,82 +9,35 @@
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .features-section {
-    padding: 50px 20px;
-    background-color: #f8f9fa;
-    text-align: center;
-  }
-  
-  .features-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: #333;
-  }
-  
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .feature-card {
-    background: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    text-align: center;
+    margin-bottom: 1rem;
   }
   
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  .features-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .feature-icon {
+  .features-heading h1 {
     font-size: 40px;
-    color: #007bff;
-    margin-bottom: 15px;
+    margin: 0;
   }
   
-  .feature-title {
+  .features-heading .quote {
+    font-style: italic;
     font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
   }
   
-  .feature-description {
-    font-size: 14px;
-    color: #555;
-  }
-   */
-
-  /* --- FEATURES HEADER --- */
-.features-header {
-  background: url('../images/Feature-Background.jpg') center/cover no-repeat;
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 20px;
-  object-fit: cover;
-}
 
 .sub{
+  margin-top: 50px;
   text-align: center;
 }
-/* --- FEATURES SECTION --- */
+
+
 .features-section {
   padding: 50px 20px;
   background-color: #f8f9fa;
@@ -95,7 +51,6 @@
   color: #333;
 }
 
-/* --- FEATURES GRID LAYOUT --- */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -104,7 +59,6 @@
   margin: 0 auto;
 }
 
-/* --- FEATURE CARD DESIGN --- */
 .feature-card {
   background: white;
   padding: 20px;
@@ -119,7 +73,6 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* --- ICON, TITLE & DESCRIPTION STYLING --- */
 .feature-icon {
   font-size: 40px;
   color: #007bff;
@@ -137,9 +90,7 @@
   color: #555;
 }
 
-/* --- RESPONSIVE STYLES --- */
 
-/* Tablet View (768px and below) */
 @media (max-width: 768px) {
   .features-header {
     height: 250px;
@@ -163,7 +114,6 @@
   }
 }
 
-/* Mobile View (480px and below) */
 @media (max-width: 480px) {
   .features-header {
     height: 200px;
@@ -201,4 +151,187 @@
   .feature-description {
     font-size: 12px;
   }
+} */
+
+
+
+
+/* --- FEATURES SECTION --- */
+.features-header {
+  background-image: url('../images/Feature-Background.jpg'); /* Ensure you have the correct path */
+  background-size: cover; /* Ensures the image covers the entire header area */
+  background-position: center; /* Centers the image */
+  height: 300px; /* Set a height for the header */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  color: white; /* Change text color to ensure good contrast */
+  text-align: center; /* Center the text */
+}
+
+.features-section {
+  padding: 50px 20px; /* Padding for section */
+  background-image: url('../images/pngtree-abstract-white-diamond-shape-background-picture-image_1401078.jpg');
+  text-align: center; /* Center text in the section */
+  width: 85%;
+  margin-top: 50px;
+}
+
+/* --- FEATURES LIST --- */
+.features-list {
+  display: flex; /* Default to flex */
+  flex-direction: column; /* Initial setup for stacking */
+  gap: 20px;  /* Gap between feature items */
+  max-width: 1200px; /* Max width of features */
+  margin: 0 auto; /* Center the feature list */
+}
+
+/* --- FEATURE ITEM DESIGN --- */
+.feature-item {
+  background: white; /* Background color for feature items */
+  padding: 20px; /* Padding inside feature item */
+  border-radius: 10px; /* Rounded corners */
+  gap: 20px; /* Gap between contents */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Shadow effect */
+  display: flex; /* Flex layout for items */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items apart */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
+}
+
+/* --- ALIGNMENTS FOR LEFT AND RIGHT --- */
+.left-align {
+  flex-direction: row; /* Left align with image on the right */
+}
+
+.right-align {
+  flex-direction: row-reverse; /* Right align with image on the left */
+}
+
+.sub{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* --- ICON --- */
+.feature-icon {
+  font-size: 60px; /* Size of the icon */
+  color: #007bff; /* Color of the icon */
+  width: 80px; /* Fixed width for alignment */
+  text-align: center; /* Center icon within its div */
+}
+
+/* --- FEATURE DETAILS --- */
+.feature-details {
+  flex: 1; /* Use remaining space for details */
+  text-align: left; /* Left-align details */
+}
+
+.left-align .feature-details {
+  margin-right: 20px; /* Space between image and details on left-align */
+}
+
+.right-align .feature-details {
+  margin-left: 20px; /* Space between icon and details on right-align */
+}
+
+/* --- FEATURE IMAGE --- */
+.feature-image {
+  width: 420px; /* Fixed width for larger screens */
+  height: 250px; /* Fixed height for larger screens */
+  border-radius: 8px; /* Rounded corners for images */
+  overflow: hidden; /* Hide overflow */
+  flex-shrink: 0; /* Prevents width from shrinking */
+}
+
+.feature-image img {
+  width: 100%; /* Full width of image container */
+  height: 100%; /* Full height of image container */
+  object-fit: fill; /* Image fills the container */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* --- HOVER EFFECT --- */
+.feature-item:hover {
+  transform: translateY(-5px); /* Raise the item on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 768px) {
+  .features-title {
+    font-size: 28px; /* Responsive title size */
+  }
+
+  .feature-image {
+    width: 80px; /* Smaller width for images on medium screens */
+    height: 80px; /* Smaller height for images on medium screens */
+  }
+
+  .features-list {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-title {
+    font-size: 18px; /* Responsive title size for small screens */
+  }
+
+  .feature-description {
+    font-size: 14px; /* Responsive description size for small screens */
+  }
+
+  .feature-item {
+    flex-direction: column; /* Stack icon and details vertically */
+    align-items: center; /* Center items */
+  }
+
+  .feature-image {
+    width: 100%; /* Make images full width */
+    height: auto; /* Allow height to adjust based on width */
+    max-width: 220px; /* Max width to prevent overflow */
+  }
+
+  .left-align, .right-align {
+    flex-direction: column; /* Stack left and right alignments vertically */
+  }
+
+  .left-align .feature-details, .right-align .feature-details {
+    margin: 0; /* Remove margins in column layout */
+    text-align: center; /* Center the text for better appearance */
+  }
+}
+
+.left-align .feature-details ul,.right-align .feature-details ul {
+  text-align: left
+}
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.feature-icon:hover {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
 }
