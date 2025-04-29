@@ -158,15 +158,34 @@
 
 /* --- FEATURES SECTION --- */
 .features-header {
-  background-image: url('../images/Feature-Background.jpg'); /* Ensure you have the correct path */
+  background-image: url('../images/Feature-Background.jpg'); 
   background-size: cover; /* Ensures the image covers the entire header area */
   background-position: center; /* Centers the image */
-  height: 300px; /* Set a height for the header */
+  height: 400px; /* Set a height for the header */
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
   color: white; /* Change text color to ensure good contrast */
   text-align: center; /* Center the text */
+}
+
+  
+.features-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-heading h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.features-heading .quote {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: normal;
 }
 
 .features-section {
@@ -181,7 +200,7 @@
 .features-list {
   display: flex; /* Default to flex */
   flex-direction: column; /* Initial setup for stacking */
-  gap: 20px;  /* Gap between feature items */
+  gap: 80px;  /* Gap between feature items */
   max-width: 1200px; /* Max width of features */
   margin: 0 auto; /* Center the feature list */
 }

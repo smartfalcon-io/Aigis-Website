@@ -6,6 +6,8 @@
     text-align: center;
     border-top: 1px solid #ddd;
     margin-top: 50px;
+    background-image: url('../images/wp11325340.webp');
+    object-fit: fill;
   }
   
   /* Footer Content - Responsive */
@@ -39,7 +41,7 @@
   .footer-section p,
   .footer-section ul {
     font-size: 16px;
-    color: #555;
+    color: #e9e5e5;
     text-align: justify;
   }
   
@@ -54,7 +56,7 @@
   
   .footer-section ul li a {
     text-decoration: none;
-    color: #333;
+    color: #e9e5e5;
   }
   
   /* Footer Bottom */
@@ -72,7 +74,7 @@
   
   .footer-bottom a {
     text-decoration: none;
-    color: #333;
+    color: #888484;
     font-weight: bold;
   }
   

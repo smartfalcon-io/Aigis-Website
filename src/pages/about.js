@@ -1,67 +1,183 @@
+// import React from 'react'
+// import '../assets/css/about.css';
+// import Footer from '../components/footer';
+// import h1 from '../assets/images/Hostel-Management.webp'
+// import h2 from '../assets/images/Hostel-Managemen-System.png'
+// import all_in_one from '../assets/images/vector-light-bulb-icon.jpg'
+// import user_friendly from '../assets/images/8878493.png'
+// import data_security from '../assets/images/lock-circle-blue-1024.webp'
+// import contact_support from '../assets/images/309-3095068_free-download-customer-support-icon-blue-clipart-customer.png'
+// import h3 from '../assets/images/Hostel-Management_02.webp'
+
+// const about = () => {
+//   return (
+//     <div className='about'>
+//       <div className='section1'>
+//          <img src={h1} className='h1' />
+//       </div>
+//       <div className='section2'>
+//         <h1>About Us</h1>
+//         <p>At Aigis, we believe that managing a co-living or hostel business should be simple, efficient, and scalable. Our platform provides all the tools you need to manage your operations effortlessly, helping you deliver the best experience for both your guests and your team.</p>
+//       </div>
+//       <div className='section3-about'>
+//         <div className='content'> 
+//             <p>Founded with the aim of revolutionizing the co-living industry, we bring years of experience in hospitality and technology to create a user-friendly and feature-rich solution. Our goal is to empower hostel owners and managers to provide an exceptional stay for their guests without the hassle of manual tracking and outdated systems</p><br/>
+//             <p>At Aigis, we believe that modern co-living spaces deserve smart, seamless, and efficient management tools that enhance both guest experience and operational efficiency. Our platform is designed to streamline day-to-day operations, automate administrative tasks, and ensure a stress-free environment for both residents and staff.</p>
+            
+//         </div>
+//         <img src={h2} />
+//       </div>
+//       <div className="why-choose-us">
+//             <h2 className="section-title">Why choose us?</h2>
+//             <div className="features-container">
+//                 <div className="feature">
+//                 <img src={all_in_one} alt="All-in-One Solution" />
+//                 <h3>All-in-One Solution</h3>
+//                 <p>From bookings to payments and security, our platform covers all aspects of hostel management in one place.</p>
+//                 </div>
+//                 <div className="feature">
+//                 <img src={user_friendly} alt="User-Friendly Interface" />
+//                 <h3>User-Friendly Interface</h3>
+//                 <p>No technical expertise required! Our intuitive dashboard makes it easy for you and your team to manage operations seamlessly.</p>
+//                 </div>
+//                 <div className="feature">
+//                 <img src={data_security} alt="Data-Driven Insights" />
+//                 <h3>Data-Driven Insights</h3>
+//                 <p>Make smarter decisions with advanced reporting tools that provide insights into occupancy, revenue, and guest trends.</p>
+//                 </div>
+//                 <div className="feature">
+//                 <img src={contact_support} alt="24/7 Customer Support" />
+//                 <h3>24/7 Customer Support</h3>
+//                 <p>Our expert support team is always available to help you resolve any issues and ensure smooth operations.</p>
+//                 </div>
+//             </div>
+        
+//         </div>
+//             <div className='section5'>
+//                 <img src={h3} className='about-bottom' />
+//                 <h1>
+//                 Transform<br/> Your Hostel<br/> Management Today
+//                 </h1>
+//             </div>
+//         <Footer/>
+//     </div>
+//   )
+// }
+
+// export default about
+
+
+
+
 import React from 'react'
 import '../assets/css/about.css';
 import Footer from '../components/footer';
-import h1 from '../assets/images/Hostel-Management.webp'
-import h2 from '../assets/images/building-management-system-Final.jpg'
-import all_in_one from '../assets/images/vector-light-bulb-icon.jpg'
-import user_friendly from '../assets/images/8878493.png'
-import data_security from '../assets/images/lock-circle-blue-1024.webp'
-import contact_support from '../assets/images/309-3095068_free-download-customer-support-icon-blue-clipart-customer.png'
-import h3 from '../assets/images/p1.jpg'
+import h1 from '../assets/images/Hostel-Management.webp';
+import h2 from '../assets/images/Hostel-Managemen-System.png';
+import all_in_one from '../assets/images/vector-light-bulb-icon.jpg';
+import user_friendly from '../assets/images/8878493.png';
+import data_security from '../assets/images/lock-circle-blue-1024.webp';
+import contact_support from '../assets/images/309-3095068_free-download-customer-support-icon-blue-clipart-customer.png';
+import h3 from '../assets/images/Hostel-Management_02.webp';
+import vision from '../assets/images/business-vision-and-target-illustration-vector.jpg';
+import coreValues from '../assets/images/14334.jpg';
+import howWeHelp from '../assets/images/hotel-service-people-cartoon-characters-staying-hostel-vector-illustration-luxury-accommodation-travelers-professional-172743072.webp';
 
-const about = () => {
+const About = () => {
   return (
     <div className='about'>
       <div className='section1'>
          <img src={h1} className='h1' />
       </div>
+
       <div className='section2'>
         <h1>About Us</h1>
         <p>At Aigis, we believe that managing a co-living or hostel business should be simple, efficient, and scalable. Our platform provides all the tools you need to manage your operations effortlessly, helping you deliver the best experience for both your guests and your team.</p>
       </div>
-      <div className='section3'>
+
+      <div className='section3-about'>
         <div className='content'> 
-            <p>Founded with the aim of revolutionizing the co-living industry, we bring years of experience in hospitality and technology to create a user-friendly and feature-rich solution. Our goal is to empower hostel owners and managers to provide an exceptional stay for their guests without the hassle of manual tracking and outdated systems</p><br/>
-            <p>At Aigis, we believe that modern co-living spaces deserve smart, seamless, and efficient management tools that enhance both guest experience and operational efficiency. Our platform is designed to streamline day-to-day operations, automate administrative tasks, and ensure a stress-free environment for both residents and staff.</p>
-            
+          <p>Founded with the aim of revolutionizing the co-living industry, we bring years of experience in hospitality and technology to create a user-friendly and feature-rich solution. Our goal is to empower hostel owners and managers to provide an exceptional stay for their guests without the hassle of manual tracking and outdated systems.</p><br/>
+          <p>At Aigis, we believe that modern co-living spaces deserve smart, seamless, and efficient management tools that enhance both guest experience and operational efficiency. Our platform is designed to streamline day-to-day operations, automate administrative tasks, and ensure a stress-free environment for both residents and staff.</p>
         </div>
         <img src={h2} />
       </div>
+
       <div className="why-choose-us">
-            <h2 className="section-title">Why choose us?</h2>
-            <div className="features-container">
-                <div className="feature">
-                <img src={all_in_one} alt="All-in-One Solution" />
-                <h3>All-in-One Solution</h3>
-                <p>From bookings to payments and security, our platform covers all aspects of hostel management in one place.</p>
-                </div>
-                <div className="feature">
-                <img src={user_friendly} alt="User-Friendly Interface" />
-                <h3>User-Friendly Interface</h3>
-                <p>No technical expertise required! Our intuitive dashboard makes it easy for you and your team to manage operations seamlessly.</p>
-                </div>
-                <div className="feature">
-                <img src={data_security} alt="Data-Driven Insights" />
-                <h3>Data-Driven Insights</h3>
-                <p>Make smarter decisions with advanced reporting tools that provide insights into occupancy, revenue, and guest trends.</p>
-                </div>
-                <div className="feature">
-                <img src={contact_support} alt="24/7 Customer Support" />
-                <h3>24/7 Customer Support</h3>
-                <p>Our expert support team is always available to help you resolve any issues and ensure smooth operations.</p>
-                </div>
-            </div>
-        
+        <h2 className="section-title">Why choose us?</h2>
+        <div className="features-container">
+          <div className="feature">
+            <img src={all_in_one} alt="All-in-One Solution" />
+            <h3>All-in-One Solution</h3>
+            <p>From bookings to payments and security, our platform covers all aspects of hostel management in one place.</p>
+          </div>
+          <div className="feature">
+            <img src={user_friendly} alt="User-Friendly Interface" />
+            <h3>User-Friendly Interface</h3>
+            <p>No technical expertise required! Our intuitive dashboard makes it easy for you and your team to manage operations seamlessly.</p>
+          </div>
+          <div className="feature">
+            <img src={data_security} alt="Data-Driven Insights" />
+            <h3>Data-Driven Insights</h3>
+            <p>Make smarter decisions with advanced reporting tools that provide insights into occupancy, revenue, and guest trends.</p>
+          </div>
+          <div className="feature">
+            <img src={contact_support} alt="24/7 Customer Support" />
+            <h3>24/7 Customer Support</h3>
+            <p>Our expert support team is always available to help you resolve any issues and ensure smooth operations.</p>
+          </div>
         </div>
-            <div className='section5'>
-                <img src={h3}  />
-                <h1>
-                Transform<br/> Your Hostel<br/> Management Today
-                </h1>
-            </div>
-        <Footer/>
+      </div>
+
+      <div className='section4 with-image'>
+        <div className='text'>
+          <h2>Our Vision & Mission</h2>
+          <p>Our vision is to redefine how hostels and co-living spaces operate by embracing modern technology. We aim to create a connected, automated, and intelligent management experience for property owners, staff, and residents.</p>
+          <p>Our mission is to empower hostel managers with powerful tools that remove operational chaos, increase guest satisfaction, and ultimately grow their business.</p>
+        </div>
+        <img src={vision} alt='Vision and Mission' />
+      </div>
+
+      <div className='core-values with-image reverse'>
+        <div className='text'>
+          <h2>Our Core Values</h2>
+          <ul>
+            <li><strong>Innovation:</strong> Constantly evolving to offer the most up-to-date and impactful features.</li>
+            <li><strong>Reliability:</strong> Count on us for stable and secure solutions you can trust 24/7.</li>
+            <li><strong>Customer Success:</strong> Your success is our success. We go the extra mile for every client.</li>
+            <li><strong>Simplicity:</strong> Simple yet powerful tools designed with a user-first approach.</li>
+          </ul>
+        </div>
+        <img src={coreValues} alt='Core Values' />
+
+      </div>
+
+      <div className='how-we-help with-image'>
+        <div className='text'>
+          <h2>How We Help Hostel Owners & Managers</h2>
+          <p>Whether you're running a small hostel or managing multiple co-living properties, our platform provides the flexibility and power to scale your operations. Features include:</p>
+          <ul>
+            <li>Real-time resident and booking management</li>
+            <li>Digital check-ins and document verification</li>
+            <li>Automated billing and payment tracking</li>
+            <li>Maintenance and complaint resolution system</li>
+            <li>Analytics dashboard for performance tracking</li>
+            <li>Role-based access for admin, staff, and residents</li>
+          </ul>
+        </div>
+        <img src={howWeHelp} alt='How We Help' />
+      </div>
+
+      <div className='section5'>
+        <img src={h3} className='about-bottom' />
+        <h1>
+          Transform<br/> Your Hostel<br/> Management Today
+        </h1>
+      </div>
+
+      <Footer/>
     </div>
   )
 }
 
-export default about
+export default About;

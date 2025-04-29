@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section about">
-            <h2>Aigis</h2>
+            <h2>Aigis Hostel Management</h2>
             <p className="footer-about">
               Streamline your hostel operations with an all-in-one platform.  
               From bookings to payments, our software makes managing  

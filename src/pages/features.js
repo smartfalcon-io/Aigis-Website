@@ -313,14 +313,14 @@ const Features = () => {
                 className={`feature-item ${index % 2 === 0 ? 'left-align' : 'right-align'}`}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
+                transition={{ duration: 0.6, ease: 'easeOut' }}
                 viewport={{ once: true }}
               >
                 <div className="feature-icon">
                   <span>{feature.icon}</span>
                 </div>
                 <div className="feature-details">
-                  <h3 className="feature-title">{feature.title}</h3>
+                  <h2 className="feature-title">{feature.title}</h2>
                   <p className="feature-description">{feature.description}</p>
                 </div>
                 <div className="feature-image">

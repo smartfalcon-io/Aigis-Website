@@ -1,4 +1,4 @@
-/* Home Page */
+
 .home {
     height: 500px;
     position: relative;
@@ -18,7 +18,7 @@
 .slide-image {
     width: 100%;
     height: 90%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .slide-content {
@@ -48,18 +48,39 @@
 }
 
 .section2 {
-    width: 95%;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.section2-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+.section2-content .para{
+    width: 40%;
+    text-align: justify;
+    margin-left: 150px;
+}
+
+.section2-image {
+    width: 450px; 
+    height: auto; 
+    margin-left: 50px; 
 }
 
 .section3 {
-    margin: 150px 0px 50px 0px;
+    margin: 150px 0px 50px 60px;
     width: 90%;
+    background-image: url('../images/polygon-scatter-haikei\ \(2\).svg');
+    height: auto;
+    border-radius: 30px;
+    justify-content: center;
 }
 
-/* Features Section */
 .features-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 50px 30px;
     background-color: #f8f9fa;
 }
 
@@ -68,11 +89,18 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
 
+}
+ .features-title{
+    text-align: center;
+    margin-top: 50px;
+}
 .features-button{
     width: 150px;
     margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+
 }
 .feature-card {
     background: white;
@@ -98,12 +126,12 @@
     margin-bottom: 15px;
 }
 
-/* About Section */
+
 .about-section {
-    background-image: url(../images/pngtree-abstract-white-diamond-shape-background-picture-image_1401078.jpg);
+    background-image: url('../images/Animated\ Shape\ \(1\).svg');
     height: 70%;
     padding: 50px 20px;
-    background-color: #ffffff;
+    object-fit: fill;
 }
 
 .about-section-container {
@@ -142,12 +170,13 @@
 
 .section-button{
     width: 150px;
+    
 }
 
 .content-container .section-title{
     text-align: left;
 }
-/* Management Section */
+
 .management-section {
     padding: 50px 20px;
     text-align: center;
@@ -155,7 +184,7 @@
 
 .management-container {
     display: flex;
-    background-color: #eee9e8;
+    background-image: url('../images/Mass\ Circles\ \(2\).svg');
     border-radius: 80px 0px 80px 0px;
     padding: 30px;
     flex-wrap: wrap;
@@ -170,6 +199,7 @@
     min-width: 200px;
     max-width: 300px;
     margin: 10px;
+    color: white;
 }
 
 .bg-image .bg {
@@ -186,10 +216,56 @@
 }
 .end-section{
  justify-items: center;   
+ background-image: url('../images/Curve\ Line.svg');
+ height: 250px;
+ 
+}
+.end-section .content{
+    padding-top: 40px;
+    color: wheat;
 }
 
+.section7 {
+    margin: 50px 0;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .amenity-card {
+    background: #ddcaca;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .amenity-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .amenity-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .amenity-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .slide-content {
         left: 10%;
@@ -244,6 +320,24 @@
     .call {
         width: 100px;
     }
+
+    .section2-content {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .section2-image {
+        margin-left: 0; 
+        margin-top: 20px; 
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .section2-content .para {
+        width: 100%; 
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -271,10 +365,21 @@
     }
 
     .home .section3{
-        width: 85%;
+        width: 90%;
+        margin-left: 30px;
+        justify-items: center;
+    }
+
+   
+    .features-button{
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 70px;
     }
     .feature-card {
-        width: 90%;
+        width: 85%;
+        margin-left: 15px;
     }
 
     .features-section .features-container{
@@ -292,6 +397,7 @@
     }
     .feature-icon {
         font-size: 30px;
+        margin-left: 80px;
     }
 
     .features-section .features-title{
@@ -303,9 +409,19 @@
         margin-left: 0px;
     }
 
+    .about-section{
+        height: auto;
+    }
+
     .about-section-container {
         gap: 20px;
     }
+
+    .section-button{
+        margin-top: 20px;
+    }
+
+   
 
     .bg-image .bg {
         width: 90%;
@@ -335,6 +451,15 @@
         text-align: center;
         margin-left: 0px;
         width: 120%;
+    }
+
+    .section2 p {
+        font-size: 14px; 
+        padding: 0 10px; 
+    }
+
+    .section2-image {
+        max-width: 100%; 
     }
 
 }
