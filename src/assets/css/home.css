@@ -264,7 +264,45 @@
     font-weight: 500;
   }
   
-
+  /* Styling the target audiences section */
+.target-audiences-section {
+    padding: 50px 0;
+    background-color: #eaffe8;
+    background-image: url('../images/Animated\ Shape\ \(4\).svg');
+    margin-bottom: 100px;
+  }
+  
+  .target-audiences-section .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .audiences-swiper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .audience-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .audience-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .audience-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
 
 @media (max-width: 1024px) {
     .slide-content {
@@ -284,6 +322,14 @@
     .image-container, .content-container {
         max-width: 100%;
     }
+
+    .audiences-swiper {
+        flex-direction: column;
+      }
+    
+      .audience-card {
+        margin: 10px 0;
+      }
 }
 
 @media (max-width: 768px) {
@@ -338,6 +384,9 @@
         width: 100%; 
         margin-left: 0;
     }
+    .audience-card {
+        padding: 15px;
+      }
 }
 
 @media (max-width: 480px) {
@@ -461,5 +510,13 @@
     .section2-image {
         max-width: 100%; 
     }
+
+    .audience-card h3 {
+        font-size: 1.25rem;
+      }
+    
+      .audience-card p {
+        font-size: 0.9rem;
+      }
 
 }

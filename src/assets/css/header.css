@@ -18,9 +18,9 @@
 }
  
 .logo img {
-  width: 50px;
-  height: auto;
+  width: 100px;
   margin-right: 10px;
+  margin-top: -10px;
 }
 
 .nav-links {

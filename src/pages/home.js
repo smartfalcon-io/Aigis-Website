@@ -93,6 +93,14 @@ const Home = () => {
         { id: 18, icon: "📞", title: "Help Desk Support" },
       ];
       
+      const targetAudiences = [
+        { title: "Hostel and Co-living Space Owners", description: "Manage bookings, payments, and operations with ease." },
+        { title: "Hostel Residents", description: "Enjoy a hassle-free living experience with easy access to amenities." },
+        { title: "Administrative Staff", description: "Access real-time information to manage operations efficiently." },
+        { title: "Freelancers and Digital Nomads", description: "Find affordable, flexible accommodations for remote work." },
+        { title: "Tech-Savvy Users", description: "Leverage a modern platform to manage your living space seamlessly." },
+        { title: "Investors and Business Partners", description: "Gain insights into performance data and explore scalable opportunities." },
+      ];
 
   return (
     <div className='home'>
@@ -148,6 +156,37 @@ const Home = () => {
             <button className="features-button" onClick={() => navigate('/features')} >More</button>
         </section>
       </div><br/>
+
+                {/* Target Audiences Section with Swiper */}
+      <div className="target-audiences-section">
+        <h2 className="section-title">Who We Serve</h2>
+        <Swiper
+          spaceBetween={20}
+          slidesPerView={1}  // Set default number of slides
+          autoplay={{ delay: 1500 }}
+          loop
+          breakpoints={{
+            1024: { slidesPerView: 3 },  // 3 slides per view on larger screens
+            768: { slidesPerView: 2 },   // 2 slides per view on medium screens
+            480: { slidesPerView: 1 },   // 1 slide per view on smaller screens
+          }}
+          modules={[Autoplay]}
+          className="audiences-swiper"
+        >
+          {targetAudiences.map((audience, index) => (
+            <SwiperSlide key={index}>
+              <div className="audience-card">
+                <h3>{audience.title}</h3>
+                <p>{audience.description}</p>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+     
+   
+
       <section className="about-section">
       <div className="about-section-container">
         <div className="image-container">
