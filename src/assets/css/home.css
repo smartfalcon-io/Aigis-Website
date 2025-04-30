@@ -76,6 +76,7 @@
     height: auto;
     border-radius: 30px;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .features-section {
@@ -91,14 +92,15 @@
     flex-wrap: wrap;
 
 }
- .features-title{
+ .features-titles{
     text-align: center;
     margin-top: 50px;
+
 }
 .features-button{
     width: 150px;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 600px;
     margin-bottom: 30px;
 
 }
@@ -124,6 +126,7 @@
 .feature-icon {
     font-size: 40px;
     margin-bottom: 15px;
+    margin-left: 70px;
 }
 
 
@@ -449,7 +452,7 @@
         margin-left: 80px;
     }
 
-    .features-section .features-title{
+    .features-section .features-titles{
         margin-left: -0px;
     }
     .management-container {

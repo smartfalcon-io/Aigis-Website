@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { motion } from "framer-motion";
 import "../assets/css/contact.css";
@@ -20,6 +18,11 @@ const slideInLeft = {
 const slideInRight = {
   hidden: { opacity: 0, x: 100 },
   visible: { opacity: 1, x: 0, transition: { duration: 1 } }
+};
+
+const scaleUp = {
+  hidden: { scale: 0 },
+  visible: { scale: 1, transition: { duration: 0.5 } }
 };
 
 const ContactUs = () => {
@@ -44,25 +47,30 @@ const ContactUs = () => {
             <div className="form-group name-group">
               <div>
                 <label>Name *</label>
-                <input type="text" placeholder="First" required />
+                <motion.input type="text" placeholder="First" required variants={scaleUp} />
               </div>
               <div>
                 <label>Last Name</label>
-                <input type="text" placeholder="Last" />
+                <motion.input type="text" placeholder="Last" variants={scaleUp} />
               </div>
             </div>
 
             <div className="form-group">
               <label>Email *</label>
-              <input type="email" placeholder="Enter your email" required />
+              <motion.input type="email" placeholder="Enter your email" required variants={scaleUp} />
             </div>
 
             <div className="form-group">
               <label>Comment or Message</label>
-              <textarea rows="4" placeholder="Your message..."></textarea>
+              <motion.textarea rows="4" placeholder="Your message..." variants={scaleUp}></motion.textarea>
             </div>
 
-            <motion.button type="submit" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <motion.button
+              type="submit"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              variants={scaleUp}
+            >
               Submit
             </motion.button>
           </form>
