@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.dbbfec1d.css",
-    "main.js": "/aigis-website/static/js/main.7612d877.js",
+    "main.css": "/aigis-website/static/css/main.3dc4567e.css",
+    "main.js": "/aigis-website/static/js/main.bf48a906.js",
     "static/js/453.2edc2088.chunk.js": "/aigis-website/static/js/453.2edc2088.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
     "static/media/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg": "/aigis-website/static/media/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.156106743cda912d6cba.jpg",
@@ -43,12 +43,12 @@
     "static/media/Mass Circles (2).svg": "/aigis-website/static/media/Mass Circles (2).82f6f69ccddb269fc5e0.svg",
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "index.html": "/aigis-website/index.html",
-    "main.dbbfec1d.css.map": "/aigis-website/static/css/main.dbbfec1d.css.map",
-    "main.7612d877.js.map": "/aigis-website/static/js/main.7612d877.js.map",
+    "main.3dc4567e.css.map": "/aigis-website/static/css/main.3dc4567e.css.map",
+    "main.bf48a906.js.map": "/aigis-website/static/js/main.bf48a906.js.map",
     "453.2edc2088.chunk.js.map": "/aigis-website/static/js/453.2edc2088.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbbfec1d.css",
-    "static/js/main.7612d877.js"
+    "static/css/main.3dc4567e.css",
+    "static/js/main.bf48a906.js"
   ]
 }
