@@ -4,7 +4,7 @@ import Additional from '../components/additional';
 import Footer from '../components/footer';
 import { motion } from 'framer-motion';
 
-import tenant from '../assets/images/Tenant-Management-1.png';
+import tenant from '../assets/images/business-management-7172728-5829552.webp';
 import room from '../assets/images/istockphoto-1177943653-612x612.jpg';
 import security from '../assets/images/vector-awesome-cyber-security-vector-ai-eps-svg.jpg';
 import role_based from '../assets/images/role-based-access-control-rbac-main-1600.jpg';
@@ -49,15 +49,29 @@ const Features = () => {
       image: room,
     },
     {
+      icon: "🔐",
+      title: "Data Privacy & Compliance",
+      description: (
+        <>
+          Ensure secure data handling and legal compliance.
+          <ul>
+            <li>Data encrypted during storage and transmission</li>
+            <li>Complies with GDPR, local tenancy laws, and data norms</li>
+            <li>Admin & Resident rights to data visibility and control</li>
+          </ul>
+        </>
+      ),
+      image: security,
+    },
+    {
       icon: "🔒",
       title: "Enterprise-Grade Security",
       description: (
         <>
           Industry-leading encryption and security protocols.
           <ul>
-            <li>Data encryption at rest and in transit</li>
-            <li>Regular security audits and compliance checks</li>
-            <li>Two-factor authentication for user accounts</li>
+            <li>Resident & Admin: Encrypted access and secure data handling</li>
+            <li>Two-factor authentication and secure login for all users</li>
           </ul>
         </>
       ),
@@ -78,20 +92,49 @@ const Features = () => {
       ),
       image: role_based,
     },
+    // {
+    //   icon: "💳",
+    //   title: "Payment Integration",
+    //   description: (
+    //     <>
+    //       Multiple payment methods for seamless transactions.
+    //       <ul>
+    //         <li>Support for credit, debit, and digital wallets</li>
+    //         <li>Automated invoicing and transaction history tracking</li>
+    //         <li>Secure payment gateways to protect user data</li>
+    //       </ul>
+    //     </>
+    //   ),
+    //   image: payment,
+    // },
     {
-      icon: "💳",
-      title: "Payment Integration",
+      icon: "🏠",
+      title: "Resident App",
       description: (
         <>
-          Multiple payment methods for seamless transactions.
+          A personalized interface for every resident.
           <ul>
-            <li>Support for credit, debit, and digital wallets</li>
-            <li>Automated invoicing and transaction history tracking</li>
-            <li>Secure payment gateways to protect user data</li>
+            <li>View room details, make payments, raise complaints</li>
+            <li>Stay informed with announcements, events, and updates</li>
+            <li>Update personal information securely</li>
           </ul>
         </>
       ),
-      image: payment,
+      image: room,
+    },
+    {
+      icon: "🧑‍💼",
+      title: "Admin Control Panel",
+      description: (
+        <>
+          A centralized control system for managing the entire operation.
+          <ul>
+            <li>Manage residents, payments, rooms, staff, and analytics</li>
+            <li>Real-time alerts and reports to streamline decision-making</li>
+          </ul>
+        </>
+      ),
+      image: role_based,
     },
     {
       icon: "📊",
@@ -148,6 +191,8 @@ const Features = () => {
             <li>Real-time updates on tasks and tenant communications</li>
             <li>User-friendly interfaces for easy navigation</li>
             <li>Notifications for important updates and reminders</li>
+            <li>Admin: Monitor task status and assign duties remotely</li>
+          <li>Resident: Directly communicate with staff through app</li>
           </ul>
         </>
       ),
@@ -160,29 +205,29 @@ const Features = () => {
         <>
           Control system access based on roles and ensure data security and integrity.
           <ul>
-            <li>Flexible user role customization</li>
-            <li>Detailed access logs for security compliance</li>
-            <li>Efficient user onboarding and offboarding processes</li>
+            <li>Admin: Manage who can view or modify critical data</li>
+            <li>Resident: Secure login and limited access by design</li>
           </ul>
         </>
       ),
       image: user,
     },
     {
-      icon: "☁️",
-      title: "Secure Cloud Hosting",
+      icon: "🖥️",
+      title: "Reliable On-Premise Hosting",
       description: (
         <>
-          Hosted on secure cloud servers with 99.9% uptime to prevent data breaches.
+          Designed for environments where local control matters most.
           <ul>
-            <li>Scalable infrastructure to support growth</li>
-            <li>Regular backups to prevent data loss</li>
-            <li>Compliance with industry standards for cloud security</li>
+            <li>Self-hosted deployment for full data ownership</li>
+            <li>Compatible with private servers and custom infrastructure</li>
+            <li>No dependency on third-party cloud providers</li>
           </ul>
         </>
       ),
       image: safty,
-    },
+    }
+    
   ];
 
   return (

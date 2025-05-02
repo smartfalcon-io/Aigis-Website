@@ -58,9 +58,8 @@
     justify-content: space-between; 
 }
 .section2-content .para{
-    width: 40%;
     text-align: justify;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .section2-image {
@@ -72,7 +71,7 @@
 .section3 {
     margin: 150px 0px 50px 60px;
     width: 90%;
-    background-image: url('../images/polygon-scatter-haikei\ \(2\).svg');
+    background-image: url('../images/Premium\ Vector\ _\ Pattern\ geometric\ line\ circle\ abstract\ seamless\ blue\ line\ \(Copy\).jpeg');
     height: auto;
     border-radius: 30px;
     justify-content: center;
@@ -121,12 +120,12 @@
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: rgb(102, 104, 104);
 }
 
-.feature-icon {
-    font-size: 40px;
+.features-icon {
+    font-size: 50px;
     margin-bottom: 15px;
-    margin-left: 70px;
 }
 
 
@@ -228,46 +227,8 @@
     color: wheat;
 }
 
-.section7 {
-    margin: 50px 0;
-    padding: 0 20px;
-    text-align: center;
-  }
+
   
-  .section-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .amenity-card {
-    background: #ddcaca;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    text-align: center;
-    transition: transform 0.3s;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .amenity-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .amenity-icon {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .amenity-title {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  /* Styling the target audiences section */
 .target-audiences-section {
     padding: 50px 0;
     background-color: #eaffe8;
@@ -389,6 +350,7 @@
     }
     .audience-card {
         padding: 15px;
+        margin: 15px;
       }
 }
 
@@ -416,22 +378,18 @@
         width: 90%;
     }
 
-    .home .section3{
-        width: 90%;
-        margin-left: 30px;
-        justify-items: center;
-    }
+   
 
    
     .features-button{
         margin: 0;
         margin-top: 20px;
         margin-bottom: 30px;
-        margin-left: 70px;
+        margin-left: 100px;
     }
     .feature-card {
         width: 85%;
-        margin-left: 15px;
+        margin-left: 25px;
     }
 
     .features-section .features-container{
@@ -447,18 +405,22 @@
    .about-section-container .image-container img{
         margin-left: -40px;
     }
-    .feature-icon {
-        font-size: 30px;
-        margin-left: 80px;
+    .features-icon {
+        font-size: 40px;
+        
     }
 
     .features-section .features-titles{
         margin-left: -0px;
     }
+
+   
+
     .management-container {
         padding: 15px;
         border-radius: 40px 0px 40px 0px;
-        margin-left: 0px;
+        margin-left: -12px;
+        width: 100%;
     }
 
     .about-section{
@@ -520,6 +482,11 @@
     
       .audience-card p {
         font-size: 0.9rem;
+      }
+
+      .section3 {
+        width: 100%;
+        margin: 150px 0px 50px 0px; /* optional: adjust margin for small screens */
       }
 
 }

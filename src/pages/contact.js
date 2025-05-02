@@ -76,37 +76,6 @@ const ContactUs = () => {
           </form>
         </motion.div>
       </motion.section>
-
-      {/* Google Map and Address Section */}
-      <motion.section
-        className="contact-map-section"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-      >
-        <motion.div className="contact-address" variants={fadeInUp}>
-          <h3>Our Address</h3>
-          <p>Aigis Hostel Management</p>
-          <p>THub Phase 2, Plot No 1/C, Sy No 83/1,</p>
-          <p>Raidurgam panmaktha, Hyderabad Knowledge City, Serilingampally,</p>
-          <p>Hyderabad, Telangana - 500 081.</p>
-          <p>Email: contact@smartfalcon.io</p>
-          <p>Phone: +91 98662 27022</p>
-        </motion.div>
-
-        <motion.div className="contact-map" variants={fadeInUp}>
-          <iframe
-            title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.525376550049!2d78.37664357493584!3d17.434550583460744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e37831f177%3A0x32d4499d34baaa78!2sT-Hub%20Phase%202!5e0!3m2!1sen!2sin!4v1745478024897!5m2!1sen!2sin"
-            width="100%"
-            height="250"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </motion.div>
-      </motion.section>
-
       <Footer />
     </div>
   );

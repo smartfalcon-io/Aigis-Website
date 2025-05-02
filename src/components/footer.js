@@ -26,9 +26,11 @@ const Footer = () => {
   
           <div className="footer-section contact">
             <h3>Contact</h3>
-            <p>Email: info@aigis.com</p>
-            <p>Phone: +91 9090909090</p>
-            <p>Address: Hyderabad</p>
+            <p>T-Hub Phase 2, Plot No 1/C, Sy No 83/1,</p>
+            <p>Raidurgam panmaktha, Hyderabad Knowledge City, Serilingampally,</p>
+          <p>Hyderabad, Telangana - 500 081.</p>
+          <p>Email: contact@smartfalcon.io</p>
+          <p>Phone: +91 98662 27022</p>
           </div>
         </div>
   

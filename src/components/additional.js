@@ -51,6 +51,7 @@ const Additional = () => {
         ))}
       </div>
     </section>
+    
   );
 };
 

@@ -1,157 +1,3 @@
-/* 
-
-
-  .features-header {
-    background: url('../images/Feature-Background.jpg') center/cover no-repeat;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    margin-bottom: 1rem;
-  }
-  
-  .features-heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .features-heading h1 {
-    font-size: 40px;
-    margin: 0;
-  }
-  
-  .features-heading .quote {
-    font-style: italic;
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: normal;
-  }
-  
-
-.sub{
-  margin-top: 50px;
-  text-align: center;
-}
-
-
-.features-section {
-  padding: 50px 20px;
-  background-color: #f8f9fa;
-  text-align: center;
-}
-
-.features-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.feature-card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  text-align: center;
-}
-
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-.feature-icon {
-  font-size: 40px;
-  color: #007bff;
-  margin-bottom: 15px;
-}
-
-.feature-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.feature-description {
-  font-size: 14px;
-  color: #555;
-}
-
-
-@media (max-width: 768px) {
-  .features-header {
-    height: 250px;
-    font-size: 20px;
-  }
-
-  .features-title {
-    font-size: 28px;
-  }
-
-  .features-grid {
-    gap: 15px;
-  }
-
-  .feature-title {
-    font-size: 18px;
-  }
-
-  .feature-description {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 480px) {
-  .features-header {
-    height: 200px;
-    font-size: 18px;
-    padding: 15px;
-    object-fit: contain;
-  }
-  .sub{
-    text-align: center;
-  }
-
-  .features-section{
-    width: 100%;
-  }
-  .features-title {
-    font-size: 24px;
-    margin-left: 100px;
-  }
-
-  .features-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .feature-card {
-    padding: 15px;
-    width: 80%;
-    margin-left: 25px;
-  }
-
-  .feature-title {
-    font-size: 16px;
-  }
-
-  .feature-description {
-    font-size: 12px;
-  }
-} */
 
 
 
@@ -189,12 +35,31 @@
 }
 
 .features-section {
-  padding: 50px 20px; /* Padding for section */
-  background-image: url('../images/pngtree-abstract-white-diamond-shape-background-picture-image_1401078.jpg');
-  text-align: center; /* Center text in the section */
-  width: 85%;
+  position: relative;
+  padding: 50px 20px;
+  text-align: center;
   margin-top: 50px;
+  border-radius: 20px;
+  max-width: 100%;
+  z-index: 0; /* Ensure stacking context */
+  background-image: url('../images/Animated\ Shape\ \(4\).svg');
+  background-size: contain; /* Ensures the background covers the full container */
 }
+
+.features-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Animated\ Shape\ \(4\).svg');
+  background-size: contain; /* Ensure background image covers */
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 0.2;
+}
+
 
 /* --- FEATURES LIST --- */
 .features-list {
@@ -203,11 +68,12 @@
   gap: 80px;  /* Gap between feature items */
   max-width: 1200px; /* Max width of features */
   margin: 0 auto; /* Center the feature list */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
 }
 
 /* --- FEATURE ITEM DESIGN --- */
 .feature-item {
-  background: white; /* Background color for feature items */
   padding: 20px; /* Padding inside feature item */
   border-radius: 10px; /* Rounded corners */
   gap: 20px; /* Gap between contents */
@@ -216,6 +82,7 @@
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space items apart */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
+  background-color: #ebedf0;
 }
 
 /* --- ALIGNMENTS FOR LEFT AND RIGHT --- */
@@ -304,6 +171,14 @@
   .feature-item {
     flex-direction: column; /* Stack icon and details vertically */
     align-items: center; /* Center items */
+  }
+
+  .feature-icon{
+    margin-left: -10px;
+  }
+
+  .features-section {
+    background-size: contain; /* Ensure background image covers the full width */
   }
 
   .feature-image {
