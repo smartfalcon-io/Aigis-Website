@@ -240,6 +240,38 @@ What’s more, our dedicated support team is always available to assist with any
         </div>
       </section>
 
+      <section className="benefits-section">
+  <h2 className="section-title">Benefits of Aigis</h2>
+  <div className="benefits-container">
+    <motion.div
+      className="benefit-card"
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.3 }}
+      onClick={() => navigate('/admin_benefits')}
+    >
+      <h3>For Admins</h3>
+      <p>
+        Decentralized Identity for secure data, automated credential management, and improved compliance. Save time, scale efficiently, and focus on growth.
+      </p>
+      <button className="benefit-btn">Explore Admin Benefits</button>
+    </motion.div>
+    
+    <motion.div
+      className="benefit-card"
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.3 }}
+      onClick={() => navigate('/resident_benefits')}
+    >
+      <h3>For Residents</h3>
+      <p>
+        Hassle-free living experience with secure access, real-time notifications, service requests, and transparent communication—all from one place.
+      </p>
+      <button className="benefit-btn">Explore Resident Benefits</button>
+    </motion.div>
+  </div>
+</section>
+
+
       <Footer />
     </div>
   )
