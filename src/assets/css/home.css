@@ -524,7 +524,7 @@
     .slide-content {
         font-size: 12px;
         left: 2%;
-        margin-top: -150px;
+        margin-top: -210px;
     }
 
     .cta-button {
@@ -533,7 +533,7 @@
     }
 
    .home .section2{
-        margin-top: -200px;
+        margin-top: -300px;
         width: 90%;
     }
 
@@ -657,17 +657,21 @@
       .section-title {
         font-size: 1.5rem;
       }
-    
-      .benefit-card {
-        padding: 20px;
-        max-width: 100%;
+
+      .benefits-container{
+        width: 95%;
+        margin-left: -10px;
       }
     
-      .benefit-card h3 {
+      .benefit-cards {
+        padding: 20px;
+      }
+    
+      .benefit-cards h3 {
         font-size: 1.3rem;
       }
     
-      .benefit-card p {
+      .benefit-cards p {
         font-size: 0.95rem;
       }
     

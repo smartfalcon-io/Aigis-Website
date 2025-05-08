@@ -118,6 +118,8 @@ const ResidentBenefits = () => {
   const featuresData = [
     {
       title: 'Decentralized Identity (DID) Management',
+      image: require('../assets/images/decentralized-identity.jpg'),
+
       points: [
         'Secure, blockchain-backed digital identity management.',
         'Full control over personal information with no reliance on centralized databases.',
@@ -126,6 +128,9 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Digital Access Credentials',
+
+      image: require('../assets/images/digital-security-access-illustration-concept-on-white-background-vector.jpg'),
+
       points: [
         'QR code or mobile-based digital access to buildings, rooms, amenities, and parking.',
         'Instant credential updates and revocations in case of loss or changes.',
@@ -133,6 +138,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Visitor Management',
+      image: require('../assets/images/visitor-management-hero.jpg'),
+
       points: [
         'Digital visitor passes for easy entry of guests.',
         'Ability to set specific access timeframes for visitors, ensuring security.',
@@ -141,6 +148,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Amenity Booking & Management',
+      image: require('../assets/images/amenity-booking-banner.png'),
+
       points: [
         'Real-time availability checks for amenities like gym, swimming pool, etc.',
         'Quick booking and cancellation of facilities directly from the app.',
@@ -149,6 +158,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Paperless Transactions & Requests',
+      image: require('../assets/images/Blog_Top20_Image4.png'),
+
       points: [
         'Digital management of visitor passes, facility bookings, and other requests.',
         'Reduced paperwork and eco-friendly approach.',
@@ -156,6 +167,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Access Control and Security',
+      image: require('../assets/images/concept-illustration-cybersecurite-gens_23-2148530634.avif'),
+
       points: [
         'Secure access management with encrypted credentials.',
         'Real-time notifications on unauthorized access attempts.',
@@ -164,6 +177,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Instant Notifications',
+      image: require('../assets/images/new-notification-illustration-concept-vector.jpg'),
+
       points: [
         'Real-time updates on community events, maintenance schedules, or any emergencies.',
         'Instant alerts for any changes to access, bookings, or important messages from admin.',
@@ -171,6 +186,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Credential and Identity Verification',
+      image: require('../assets/images/digital-identity-verification-vector-illustration-concept-characters-authentication-secure-process-trusted-identities-modern-281354325.webp'),
+
       points: [
         'Easy-to-use interface for verifying and managing personal credentials.',
         'Secure verification without the need for physical IDs or documents.',
@@ -178,6 +195,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Payment and Billing Management',
+      image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by-.jpg'),
+
       points: [
         'Seamless payment gateway for managing payments related to services, amenities, and other community-related charges.',
         'Automated reminders for due payments to avoid late fees.',
@@ -185,6 +204,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'One-Click Requests',
+      image: require('../assets/images/fedrunovan200200325.jpg'),
+
       points: [
         'Submit requests to admin (maintenance, facility bookings, visitor passes) with a single click.',
         'Instant updates and approvals directly in the app.',
@@ -192,6 +213,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Transparent Communication with Admin',
+      image: require('../assets/images/illustration-administrator-assistant-concept-with-businessman-admin-working-office-desk_675567-3117.avif'),
+
       points: [
         'Quick and clear communication channels for any queries, complaints, or requests to admin.',
         'Transparency in the approval/rejection process of requests.',
@@ -199,6 +222,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Smart Security Integration',
+      image: require('../assets/images/smart-security.jpg'),
+
       points: [
         'Access to smart security features for monitoring and securing personal spaces.',
         'Traceable and secure shared access with roommates, guests, or maintenance staff.',
@@ -206,12 +231,16 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Multi-Platform Access',
+      image: require('../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.avif'),
+
       points: [
         'Full access to the Aigis platform through mobile, tablet, and desktop, ensuring flexibility in managing daily activities.',
       ],
     },
     {
       title: 'Community Engagement',
+      image: require('../assets/images/FB-Admins.jpg'),
+
       points: [
         'Stay updated on community happenings like events, policy updates, or new announcements.',
         'Ability to engage in community activities, improving overall social interaction.',
@@ -219,6 +248,8 @@ const ResidentBenefits = () => {
     },
     {
       title: 'User-Friendly Interface',
+      image: require('../assets/images/get-touch-concept-illustration_114360-2586.avif'),
+
       points: [
         'Intuitive, easy-to-navigate app that simplifies the management of daily activities.',
         'A visually appealing dashboard with quick access to key features and updates.',
@@ -275,20 +306,30 @@ const ResidentBenefits = () => {
 
       {/* Features Section */}
       <h2 className="title">Features for Residents</h2>
-        <section className="features-section">
-        <div className="card-grid">
-        {featuresData.map((feature, index) => (
-          <div key={index} className="cards">
-            <h3 className="card-title">{feature.title}</h3>
-            <ul className="card-list">
-              {feature.points.map((point, i) => (
-                <li key={i}>{point}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+<section className="features-section">
+  <div className="card-grid">
+    {featuresData.map((feature, index) => (
+      <div
+        key={index}
+        className={`feature-card ${index % 2 === 0 ? 'left-image' : 'right-image'}`}
+      >
+        <div className="feature-image">
+          <img src={feature.image} alt={feature.title} />
+        </div>
+        <div className="feature-content">
+          <h2 className="card-title">{feature.title}</h2>
+          <ul className="card-list">
+            {feature.points.map((point, i) => (
+              <li key={i}>{point}</li>
+            ))}
+          </ul>
+        </div>
       </div>
-        </section>
+    ))}
+  </div>
+</section>
+
+
         <Footer/>
     </div>
   );
