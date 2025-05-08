@@ -14,7 +14,7 @@ import image3 from "../assets/images/White Minimalist Corporate Personal Profile
 import about from '../assets/images/about1.jpg';
 import bg from '../assets/images/bg1.png';
 import Footer from '../components/footer';
-import image4 from '../assets/images/istockphoto-1137953347-612x612.jpg'
+import image4 from '../assets/images/24.0-Co-LivingConcept-04-1-scaled-1600x900.jpg'
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { Swiper as AmenitySwiper, SwiperSlide as AmenitySlide } from "swiper/react";
@@ -28,7 +28,7 @@ const Home = () => {
   const slides = [
     {
       image: image1,
-      title: "Welcome to Aigis Hostel",
+      title: "Welcome to Aigis Residents Management",
       description: "Streamline your hostel operations with an all-in-one platform. From bookings to payments, our software makes managing your co-living space easier than ever.",
     },
     {
@@ -145,7 +145,7 @@ What’s more, our dedicated support team is always available to assist with any
             {features.map((feature) => (
               <motion.div
                 key={feature.id}
-                className="feature-card"
+                className="features-cards"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
@@ -240,11 +240,11 @@ What’s more, our dedicated support team is always available to assist with any
         </div>
       </section>
 
-      <section className="benefits-section">
+      <section className="benefits-sections">
   <h2 className="section-title">Benefits of Aigis</h2>
   <div className="benefits-container">
     <motion.div
-      className="benefit-card"
+      className="benefit-cards"
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
       onClick={() => navigate('/admin_benefits')}
@@ -257,7 +257,7 @@ What’s more, our dedicated support team is always available to assist with any
     </motion.div>
     
     <motion.div
-      className="benefit-card"
+      className="benefit-cards"
       whileHover={{ scale: 1.05 }}
       transition={{ duration: 0.3 }}
       onClick={() => navigate('/resident_benefits')}
@@ -270,6 +270,8 @@ What’s more, our dedicated support team is always available to assist with any
     </motion.div>
   </div>
 </section>
+
+
 
 
       <Footer />

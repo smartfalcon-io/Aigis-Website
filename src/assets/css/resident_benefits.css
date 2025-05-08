@@ -6,14 +6,16 @@
   }
   
   .benefit-card, .feature-card {
-    background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* background-image: url('../images/900w-SzcxonRCLFI.webp'); */
+    object-fit: fill;
+    
   }
   
   .benefit-card h3, .feature-card h3 {
-    color: #333;
+    color: #e0d9d9;
   }
   
   .benefit-card ul, .feature-card ul {
@@ -28,7 +30,6 @@
   
   .features-container {
     grid-column: span 2;
-    background: #eef2f3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

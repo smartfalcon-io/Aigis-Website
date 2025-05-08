@@ -9,12 +9,14 @@
   padding: 40px;
   background-color: #f5f5f5;
   flex-wrap: wrap;
+
 }
 
 /* --- CONTACT IMAGE STYLING --- */
 .contact-image {
   flex: 1;
   max-width: 45%;
+  margin-top: 150px;
 }
 
 .contact-image img {
@@ -32,6 +34,8 @@
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+
 }
 
 .contact-form h2 {
@@ -141,6 +145,7 @@ button:hover {
 
   .contact-form {
     width: 90%;
+    margin-top: 0px;
   }
   .contact-form input{
     width: 90%;
@@ -171,6 +176,9 @@ button:hover {
 @media (max-width: 480px) {
   .contact-container {
     padding: 20px;
+  }
+  .contact-image{
+    margin-top: 60px;
   }
 
   .contact-form {

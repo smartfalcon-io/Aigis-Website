@@ -11,6 +11,7 @@
   z-index: 1000; 
   transition: top 0.3s;
   width: 100%;
+
 }
 
 .navbar.scrolled {

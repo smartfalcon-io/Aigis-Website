@@ -7,12 +7,13 @@
   background-image: url('../images/Feature-Background.jpg'); 
   background-size: cover; /* Ensures the image covers the entire header area */
   background-position: center; /* Centers the image */
-  height: 400px; /* Set a height for the header */
+  height: 500px; /* Set a height for the header */
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
   color: white; /* Change text color to ensure good contrast */
   text-align: center; /* Center the text */
+  object-fit: fill;
 }
 
   
@@ -42,7 +43,6 @@
   border-radius: 20px;
   max-width: 100%;
   z-index: 0; /* Ensure stacking context */
-  background-image: url('../images/Animated\ Shape\ \(4\).svg');
   background-size: contain; /* Ensures the background covers the full container */
 }
 
@@ -53,7 +53,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../images/Animated\ Shape\ \(4\).svg');
   background-size: contain; /* Ensure background image covers */
   z-index: -1;
   border-radius: 20px;
@@ -83,6 +82,7 @@
   justify-content: space-between; /* Space items apart */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
   background-color: #ebedf0;
+  background-image: url('../images/Free-White-Background.jpg');
 }
 
 /* --- ALIGNMENTS FOR LEFT AND RIGHT --- */

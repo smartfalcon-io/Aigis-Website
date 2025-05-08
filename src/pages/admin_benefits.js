@@ -1,9 +1,241 @@
+// import React from "react";
+// import "../assets/css/admin_benefits.css"; // Import the CSS file for styles
+// import { FaLock, FaCogs, FaMoneyBillWave, FaExclamationTriangle, FaThumbsUp, FaExpandArrowsAlt, FaUserCheck, FaTools, FaChartBar } from "react-icons/fa";
+
+// const benefitsData = [
+//   {
+//     title: "Enhanced Security and Reduced Liability",
+//     icon: <FaLock />,
+//     image: require('../assets/images/Features_Security.png'),
+//     points: [
+//       "No Centralized Data Storage: Minimizes data breach risks.",
+//       "Decentralized Control: Residents manage their data; only necessary credentials are shared.",
+//       "Compliance Made Easy: Facilitates GDPR and DPDP Act adherence with consent-based access.",
+//     ],
+//   },
+//   {
+//     title: "Improved Operational Efficiency",
+//     icon: <FaCogs />,
+//     image: require('../assets/images/oprtn_efficncy.jpg'),
+
+//     points: [
+//       "Automated Credential Issuance: Easily issue, revoke, or update credentials.",
+//       "Seamless Access Management: Instantly deactivate access when needed.",
+//       "Reduced Paperwork: Digitized processes eliminate manual documentation.",
+//     ],
+//   },
+//   {
+//     title: "Cost Reduction",
+//     icon: <FaMoneyBillWave />,
+//     image: require('../assets/images/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.jpg'),
+
+//     points: [
+//       "Less IT Infrastructure: Reduced need for centralized servers.",
+//       "Lower Administrative Overheads: Automation frees up admin resources.",
+//     ],
+//   },
+//   {
+//     title: "Easy Incident Management",
+//     icon: <FaExclamationTriangle />,
+//     image: require('../assets/images/incident-command-team.png'),
+
+//     points: [
+//       "Instant Revocation of Access: Quickly revoke credentials in emergencies.",
+//       "Audit Trails and Transparency: Blockchain logs all events securely.",
+//     ],
+//   },
+//   {
+//     title: "Increased Trust and Resident Satisfaction",
+//     icon: <FaThumbsUp />,
+//     image: require('../assets/images/online-reputation-management-analyze-feedback-strategy-to-increase-satisfaction-gain-customer-trust-concepts-marketing-team-252937752.webp'),
+
+//     points: [
+//       "Privacy Assurance: Residents value secure, private systems.",
+//       "Resident Autonomy: Residents control their own data, increasing satisfaction.",
+//     ],
+//   },
+//   {
+//     title: "Scalability and Flexibility",
+//     icon: <FaExpandArrowsAlt />,
+//     image: require('../assets/images/Flexibility-and-scalability.png'),
+
+//     points: [
+//       "Easily Expandable: Suitable for various community sizes.",
+//       "Customizable Rules and Permissions: Adaptable access controls per role.",
+//     ],
+//   },
+//   {
+//     title: "Efficient Visitor Management",
+//     icon: <FaUserCheck />,
+//     image: require('../assets/images/blog4.png'),
+
+//     points: [
+//       "Quick Visitor Verification: Real-time credential scanning.",
+//       "One-Time Access for Guests: Secure, temporary visitor credentials.",
+//     ],
+//   },
+//   {
+//     title: "Simplified Maintenance and Upkeep",
+//     icon: <FaTools />,
+//     image: require('../assets/images/maintenance-concept-illustration_86047-562.avif'),
+
+//     points: [
+//       "Real-Time Data Updates: Changes reflect immediately in the system.",
+//       "Access Control for Different Areas: Tailored entry for staff and residents.",
+//     ],
+//   },
+//   {
+//     title: "Data-Driven Insights and Analytics",
+//     icon: <FaChartBar />,
+//     image: require('../assets/images/data driven decisions.webp'),
+
+//     points: [
+//       "Track and Improve Resident Engagement: Understand usage patterns.",
+//       "Efficiency Analytics: Optimize resources with actionable data.",
+//     ],
+//   },
+// ];
+
+
+// const featuresData = [
+//   {
+//     title: "Resident & Visitor Management",
+//     points: [
+//       "Manage resident profiles, including personal details, room allocation, and access credentials.",
+//       "Approve or reject visitor requests and issue temporary access passes.",
+//       "Real-time notifications for visitor arrivals and resident requests.",
+//     ],
+//   },
+//   {
+//     title: "Access Control & Security",
+//     points: [
+//       "Monitor access control systems for secure entry and exit.",
+//       "Ability to review and revoke resident or visitor access instantly in case of security concerns.",
+//       "Real-time alerts on unauthorized access attempts or suspicious activity.",
+//     ],
+//   },
+//   {
+//     title: "Digital Credential Issuance",
+//     points: [
+//       "Generate and manage digital credentials for residents, visitors, and staff.",
+//       "Issue QR codes or access tokens that grant secure access to buildings and facilities.",
+//       "Seamlessly revoke or update credentials from the admin panel.",
+//     ],
+//   },
+//   {
+//     title: "Facility & Amenity Management",
+//     points: [
+//       "Oversee the booking and availability of amenities such as gym, swimming pool, etc.",
+//       "Set up and manage facility rules, pricing, and availability.",
+//       "Approve or deny facility booking requests in real-time.",
+//     ],
+//   },
+//   {
+//     title: "Payment and Billing Management",
+//     points: [
+//       "View and manage resident payments, including due dates and amounts.",
+//       "Send payment reminders, invoices, and receipts through the platform.",
+//       "Track payment statuses and generate reports for financial transparency.",
+//     ],
+//   },
+//   {
+//     title: "Real-Time Notifications & Alerts",
+//     points: [
+//       "Receive instant notifications for requests, complaints, and other administrative tasks.",
+//       "Send notifications or alerts to residents about maintenance schedules, community events, or emergencies.",
+//       "Communicate with residents efficiently through the platform.",
+//     ],
+//   },
+//   {
+//     title: "Reports and Analytics",
+//     points: [
+//       "Access comprehensive reports on resident activities, facility usage, payment history, and security events.",
+//       "Visualize data through charts and graphs for better decision-making.",
+//       "Monitor overall community health, security, and satisfaction levels.",
+//     ],
+//   },
+//   {
+//     title: "Maintenance Management",
+//     points: [
+//       "Track and manage maintenance requests submitted by residents.",
+//       "Assign tasks to maintenance staff and monitor the status of repairs and tasks.",
+//       "Notify residents of upcoming or completed maintenance tasks.",
+//     ],
+//   },
+//   {
+//     title: "Incident & Complaint Management",
+//     points: [
+//       "Receive and manage complaints from residents, ensuring timely resolution.",
+//       "Track the status of complaints (Pending, In Progress, Resolved).",
+//       "Communicate directly with residents to resolve issues and provide feedback.",
+//     ],
+//   },
+// ];
+
+// const AdminBenefits = () => {
+//   return (
+//     <div className="admin-benefits">
+//       <h1 className="title">Benefits of Aigis for Admins</h1>
+
+//     <section className="benefits-section">
+//     <div className="card-grid">
+//   {benefitsData.map((benefit, index) => (
+//           <div key={index} className="cards">
+//             <div className="image-wrapper">
+//               <img src={benefit.image} alt={benefit.title} className="card-image" />
+//             </div>
+//             <div className="card-header">
+//               <h2 className="card-title">{benefit.title}</h2>
+//             </div>
+//             <ul className="card-list">
+//               {benefit.points.map((point, i) => (
+//                 <li key={i}>{point}</li>
+//               ))}
+//             </ul>
+//       </div>
+
+//         ))}
+//       </div>
+//     </section>
+
+
+//       {/* Features Section */}
+//       <h2 className="title">Features for Admins</h2>
+//         <section className="features-section">
+//         <div className="card-grid">
+//         {featuresData.map((feature, index) => (
+//           <div key={index} className="cards">
+//             <h3 className="card-title">{feature.title}</h3>
+//             <ul className="card-list">
+//               {feature.points.map((point, i) => (
+//                 <li key={i}>{point}</li>
+//               ))}
+//             </ul>
+//           </div>
+//         ))}
+//       </div>
+//         </section>
+//     </div>
+//   );
+// };
+
+// export default AdminBenefits;
+
+
+
+
+
+
 import React from "react";
 import "../assets/css/admin_benefits.css"; // Import the CSS file for styles
+import { FaLock, FaCogs, FaMoneyBillWave, FaExclamationTriangle, FaThumbsUp, FaExpandArrowsAlt, FaUserCheck, FaTools, FaChartBar } from "react-icons/fa";
+import Footer from "../components/footer";
 
 const benefitsData = [
   {
     title: "Enhanced Security and Reduced Liability",
+    icon: <FaLock />,
+    image: require('../assets/images/Features_Security.png'),
     points: [
       "No Centralized Data Storage: Minimizes data breach risks.",
       "Decentralized Control: Residents manage their data; only necessary credentials are shared.",
@@ -12,6 +244,9 @@ const benefitsData = [
   },
   {
     title: "Improved Operational Efficiency",
+    icon: <FaCogs />,
+    image: require('../assets/images/oprtn_efficncy.jpg'),
+
     points: [
       "Automated Credential Issuance: Easily issue, revoke, or update credentials.",
       "Seamless Access Management: Instantly deactivate access when needed.",
@@ -20,6 +255,9 @@ const benefitsData = [
   },
   {
     title: "Cost Reduction",
+    icon: <FaMoneyBillWave />,
+    image: require('../assets/images/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.jpg'),
+
     points: [
       "Less IT Infrastructure: Reduced need for centralized servers.",
       "Lower Administrative Overheads: Automation frees up admin resources.",
@@ -27,6 +265,9 @@ const benefitsData = [
   },
   {
     title: "Easy Incident Management",
+    icon: <FaExclamationTriangle />,
+    image: require('../assets/images/incident-command-team.png'),
+
     points: [
       "Instant Revocation of Access: Quickly revoke credentials in emergencies.",
       "Audit Trails and Transparency: Blockchain logs all events securely.",
@@ -34,6 +275,9 @@ const benefitsData = [
   },
   {
     title: "Increased Trust and Resident Satisfaction",
+    icon: <FaThumbsUp />,
+    image: require('../assets/images/online-reputation-management-analyze-feedback-strategy-to-increase-satisfaction-gain-customer-trust-concepts-marketing-team-252937752.webp'),
+
     points: [
       "Privacy Assurance: Residents value secure, private systems.",
       "Resident Autonomy: Residents control their own data, increasing satisfaction.",
@@ -41,6 +285,9 @@ const benefitsData = [
   },
   {
     title: "Scalability and Flexibility",
+    icon: <FaExpandArrowsAlt />,
+    image: require('../assets/images/Flexibility-and-scalability.png'),
+
     points: [
       "Easily Expandable: Suitable for various community sizes.",
       "Customizable Rules and Permissions: Adaptable access controls per role.",
@@ -48,6 +295,9 @@ const benefitsData = [
   },
   {
     title: "Efficient Visitor Management",
+    icon: <FaUserCheck />,
+    image: require('../assets/images/blog4.png'),
+
     points: [
       "Quick Visitor Verification: Real-time credential scanning.",
       "One-Time Access for Guests: Secure, temporary visitor credentials.",
@@ -55,6 +305,9 @@ const benefitsData = [
   },
   {
     title: "Simplified Maintenance and Upkeep",
+    icon: <FaTools />,
+    image: require('../assets/images/maintenance-concept-illustration_86047-562.avif'),
+
     points: [
       "Real-Time Data Updates: Changes reflect immediately in the system.",
       "Access Control for Different Areas: Tailored entry for staff and residents.",
@@ -62,12 +315,16 @@ const benefitsData = [
   },
   {
     title: "Data-Driven Insights and Analytics",
+    icon: <FaChartBar />,
+    image: require('../assets/images/data driven decisions.webp'),
+
     points: [
       "Track and Improve Resident Engagement: Understand usage patterns.",
       "Efficiency Analytics: Optimize resources with actionable data.",
     ],
   },
 ];
+
 
 const featuresData = [
   {
@@ -149,25 +406,38 @@ const AdminBenefits = () => {
     <div className="admin-benefits">
       <h1 className="title">Benefits of Aigis for Admins</h1>
 
-      {/* Benefits Section */}
-      <div className="card-grid">
+     
+      <section className="card-container">
         {benefitsData.map((benefit, index) => (
           <div key={index} className="card">
-            <h2 className="card-title">{benefit.title}</h2>
-            <ul className="card-list">
-              {benefit.points.map((point, i) => (
-                <li key={i}>{point}</li>
-              ))}
-            </ul>
+            <div className="card-inner">
+              {/* Front Side */}
+              <div className="card-front">
+                <img src={benefit.image} alt={benefit.title} />
+                <h2>{benefit.title}</h2>
+              </div>
+
+              {/* Back Side */}
+              <div className="card-back">
+                <img src={benefit.image} alt={benefit.title} />
+                <ul>
+                  {benefit.points.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         ))}
-      </div>
+      </section>
+
 
       {/* Features Section */}
       <h2 className="title">Features for Admins</h2>
-      <div className="card-grid">
+        <section className="features-section">
+        <div className="card-grid">
         {featuresData.map((feature, index) => (
-          <div key={index} className="card">
+          <div key={index} className="cards">
             <h3 className="card-title">{feature.title}</h3>
             <ul className="card-list">
               {feature.points.map((point, i) => (
@@ -177,8 +447,14 @@ const AdminBenefits = () => {
           </div>
         ))}
       </div>
+        </section>
+
+        <Footer/>
     </div>
+    
   );
 };
 
 export default AdminBenefits;
+
+

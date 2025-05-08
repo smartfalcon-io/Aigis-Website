@@ -6,7 +6,7 @@ import React from 'react'
 import '../assets/css/about.css';
 import Footer from '../components/footer';
 import { motion } from "framer-motion";
-import h1 from '../assets/images/Hostel-Management.webp';
+import h1 from '../assets/images/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.png';
 import h2 from '../assets/images/Hostel-Managemen-System.png';
 import all_in_one from '../assets/images/vector-light-bulb-icon.jpg';
 import user_friendly from '../assets/images/8878493.png';
@@ -21,12 +21,13 @@ const About = () => {
   return (
     <div className='about'>
       {/* Section 1 with fade-in effect */}
-      <motion.div className='section1' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+      <motion.div className='about-section1' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <img src={h1} className='h1' />
+        <h1>About Us</h1>
       </motion.div>
 
       {/* Section 2 with slide-in effect */}
-      <motion.div className='section2' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}>
+      <motion.div className='about-section2' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}>
         <h1>About Us</h1>
         <p>At Aigis, we believe that managing a co-living or hostel business should be simple, efficient, and scalable. Our platform provides all the tools you need to manage your operations effortlessly, helping you deliver the best experience for both your guests and your team.</p>
       </motion.div>
@@ -110,7 +111,6 @@ const About = () => {
 
       {/* Section 5 with fade-in and text slide-in */}
       <motion.div className='section5' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <motion.img src={h3} className='about-bottom' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} />
         <h1>
           Transform<br/> Your Hostel<br/> Management Today
         </h1>
