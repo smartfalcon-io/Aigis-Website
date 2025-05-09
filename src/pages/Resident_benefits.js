@@ -7,7 +7,7 @@ const ResidentBenefits = () => {
   const benefitsData= [
     {
       title: 'Complete Privacy Control',
-      image: require('../assets/images/cyber-security-illustration-concept-with-characters-data-security-protected-access-control-privacy-data-protection_269730-47.avif'),
+      image: require('../assets/images/cyber-security-illustration-concept-with-characters-data-security-protected-access-control-privacy-d_1.png'),
 
       points: [
         'Decentralized Data: Residents have full control over their personal information. With Aigis, your data isn’t stored in a central database, but rather secured on the blockchain, ensuring your privacy.',
@@ -43,7 +43,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Reduced Paperwork',
-      image: require('../assets/images/f228047a-c4c8-4d99-a7f6-dc1c2e74dd7d_816x660.jpg'),
+      image: require('../assets/images/f228047a-c4c8-4d99-a7f6-dc1c2e74dd7d_816x660.png'),
 
       points: [
         'Paperless Experience: Aigis eliminates the need for physical paperwork when issuing passes or managing credentials. All interactions are digital, reducing paperwork and administrative bottlenecks.',
@@ -52,7 +52,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Seamless Interaction with Admins',
-      image: require('../assets/images/cheerful-man-got-approval-illustration-vector.jpg'),
+      image: require('../assets/images/cheerful-man-got-approval-illustration-vector.png'),
 
       points: [
         'Quick Requests and Approvals: Whether it’s a visitor pass or a facility booking, residents can easily submit requests to admins via the platform, with real-time approval or rejection.',
@@ -61,7 +61,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Instant Access to Community Resources',
-      image: require('../assets/images/access-illustration-in-flat-style-vector.jpg'),
+      image: require('../assets/images/access-illustration-in-flat-style-vector.png'),
 
       points: [
         'Easy Facility Booking: Residents can quickly check availability and book amenities (e.g., gym, pool, etc.) directly through the app.',
@@ -79,7 +79,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Simplified Management of Personal Credentials',
-      image: require('../assets/images/card-on-file-abstract-concept-illustration-storing-cardholder-information-payment-facilitation-card-on-file-transaction-save-details-consumer-credentials-reward-abstr.jpg'),
+      image: require('../assets/images/card-on-file-abstract-concept-illustration-storing-cardholder-information-payment-facilitation-card-on-file-transaction-save-details-consumer-credentials-reward-abstr.png'),
 
       points: [
         'Easy Verification: Residents can verify their identity and credentials quickly and securely without the need for manual checks or physical verification.',
@@ -88,7 +88,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Access to Smart Security Features',
-      image: require('../assets/images/cyber-security-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg'),
+      image: require('../assets/images/cyber-security-illustration-concept-flat-illustration-isolated-on-white-background-vector.png'),
 
       points: [
         'Blockchain-Backed Security: Aigis ensures that all actions and credentials are verified through blockchain technology, guaranteeing the highest level of security and preventing unauthorized data manipulation.',
@@ -97,7 +97,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Simplified Payment and Billing',
-      image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by-.jpg'),
+      image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by.png'),
 
       points: [
         'Secure Transactions: Residents can manage their payments for services or amenities via the Aigis platform, with secure and easy payment options available.',
@@ -106,7 +106,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'A Unified Digital Experience',
-      image: require('../assets/images/user-experience-concept-vector-illustrated_951778-1467.avif'),
+      image: require('../assets/images/user-experience-concept-vector-illustrated_951778-1467_1.png'),
 
       points: [
         'One Platform for All Needs: From booking amenities to managing access, submitting requests, or paying bills, Aigis consolidates all resident-related activities into a single, easy-to-use platform.',
@@ -118,7 +118,7 @@ const ResidentBenefits = () => {
   const featuresData = [
     {
       title: 'Decentralized Identity (DID) Management',
-      image: require('../assets/images/decentralized-identity.jpg'),
+      image: require('../assets/images/decentralized-identity.png'),
 
       points: [
         'Secure, blockchain-backed digital identity management.',
@@ -129,7 +129,7 @@ const ResidentBenefits = () => {
     {
       title: 'Digital Access Credentials',
 
-      image: require('../assets/images/digital-security-access-illustration-concept-on-white-background-vector.jpg'),
+      image: require('../assets/images/digital-security-access-illustration-concept-on-white-background-vector.png'),
 
       points: [
         'QR code or mobile-based digital access to buildings, rooms, amenities, and parking.',
@@ -138,7 +138,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Visitor Management',
-      image: require('../assets/images/visitor-management-hero.jpg'),
+      image: require('../assets/images/visitor-management-hero.png'),
 
       points: [
         'Digital visitor passes for easy entry of guests.',
@@ -167,7 +167,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Access Control and Security',
-      image: require('../assets/images/concept-illustration-cybersecurite-gens_23-2148530634.avif'),
+      image: require('../assets/images/concept-illustration-cybersecurite-gens_23-2148530634.png'),
 
       points: [
         'Secure access management with encrypted credentials.',
@@ -177,7 +177,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Instant Notifications',
-      image: require('../assets/images/new-notification-illustration-concept-vector.jpg'),
+      image: require('../assets/images/new-notification-illustration-concept-vector.png'),
 
       points: [
         'Real-time updates on community events, maintenance schedules, or any emergencies.',
@@ -186,7 +186,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Credential and Identity Verification',
-      image: require('../assets/images/digital-identity-verification-vector-illustration-concept-characters-authentication-secure-process-trusted-identities-modern-281354325.webp'),
+      image: require('../assets/images/digital-identity-verification-vector-illustration-concept-characters-authentication-secure-process-trusted-identities-modern-281354325.png'),
 
       points: [
         'Easy-to-use interface for verifying and managing personal credentials.',
@@ -195,7 +195,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Payment and Billing Management',
-      image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by-.jpg'),
+      image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by.png'),
 
       points: [
         'Seamless payment gateway for managing payments related to services, amenities, and other community-related charges.',
@@ -204,7 +204,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'One-Click Requests',
-      image: require('../assets/images/fedrunovan200200325.jpg'),
+      image: require('../assets/images/fedrunovan200200325.png'),
 
       points: [
         'Submit requests to admin (maintenance, facility bookings, visitor passes) with a single click.',
@@ -213,7 +213,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Transparent Communication with Admin',
-      image: require('../assets/images/illustration-administrator-assistant-concept-with-businessman-admin-working-office-desk_675567-3117.avif'),
+      image: require('../assets/images/illustration-administrator-assistant-concept-with-businessman-admin-working-office-desk_675567-3117.png'),
 
       points: [
         'Quick and clear communication channels for any queries, complaints, or requests to admin.',
@@ -222,7 +222,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Smart Security Integration',
-      image: require('../assets/images/smart-security.jpg'),
+      image: require('../assets/images/smart-security.png'),
 
       points: [
         'Access to smart security features for monitoring and securing personal spaces.',
@@ -231,7 +231,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Multi-Platform Access',
-      image: require('../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.avif'),
+      image: require('../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.png'),
 
       points: [
         'Full access to the Aigis platform through mobile, tablet, and desktop, ensuring flexibility in managing daily activities.',
@@ -239,7 +239,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'Community Engagement',
-      image: require('../assets/images/FB-Admins.jpg'),
+      image: require('../assets/images/FB-Admins.png'),
 
       points: [
         'Stay updated on community happenings like events, policy updates, or new announcements.',
@@ -248,7 +248,7 @@ const ResidentBenefits = () => {
     },
     {
       title: 'User-Friendly Interface',
-      image: require('../assets/images/get-touch-concept-illustration_114360-2586.avif'),
+      image: require('../assets/images/Adobe Express - file.png'),
 
       points: [
         'Intuitive, easy-to-navigate app that simplifies the management of daily activities.',

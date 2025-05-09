@@ -21,7 +21,7 @@ const benefitsData = [
   },
   {
     title: "Improved Operational Efficiency",
-    image: require('../assets/images/oprtn_efficncy.jpg'),
+    image: require('../assets/images/oprtn_efficncy.png'),
 
     points: [
       "Automated Credential Issuance: Easily issue, revoke, or update credentials.",
@@ -31,7 +31,7 @@ const benefitsData = [
   },
   {
     title: "Cost Reduction",
-    image: require('../assets/images/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.jpg'),
+    image: require('../assets/images/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.png'),
 
     points: [
       "Less IT Infrastructure: Reduced need for centralized servers.",
@@ -49,7 +49,7 @@ const benefitsData = [
   },
   {
     title: "Increased Trust and Resident Satisfaction",
-    image: require('../assets/images/online-reputation-management-analyze-feedback-strategy-to-increase-satisfaction-gain-customer-trust-concepts-marketing-team-252937752.webp'),
+    image: require('../assets/images/online-reputation-management-analyze-feedback-strategy-to-increase-satisfaction-gain-customer-trust-concepts-marketing-team-252937752.png'),
 
     points: [
       "Privacy Assurance: Residents value secure, private systems.",
@@ -76,7 +76,7 @@ const benefitsData = [
   },
   {
     title: "Simplified Maintenance and Upkeep",
-    image: require('../assets/images/maintenance-concept-illustration_86047-562.avif'),
+    image: require('../assets/images/maintenance-concept-illustration_86047-562.png'),
 
     points: [
       "Real-Time Data Updates: Changes reflect immediately in the system.",
@@ -85,7 +85,7 @@ const benefitsData = [
   },
   {
     title: "Data-Driven Insights and Analytics",
-    image: require('../assets/images/data driven decisions.webp'),
+    image: require('../assets/images/data_driven_decisions__1.png'),
 
     points: [
       "Track and Improve Resident Engagement: Understand usage patterns.",
@@ -98,7 +98,7 @@ const benefitsData = [
 const featuresData = [
   {
     title: "Resident & Visitor Management",
-    image: require('../assets/images/visitor-management-hero.jpg'),
+    image: require('../assets/images/visitor-management-hero.png'),
 
     points: [
       "Manage resident profiles, including personal details, room allocation, and access credentials.",
@@ -108,7 +108,7 @@ const featuresData = [
   },
   {
     title: "Access Control & Security",
-    image: require('../assets/images/concept-illustration-cybersecurite-gens_23-2148530634.avif'),
+    image: require('../assets/images/concept-illustration-cybersecurite-gens_23-2148530634.png'),
 
     points: [
       "Monitor access control systems for secure entry and exit.",
@@ -138,7 +138,7 @@ const featuresData = [
   },
   {
     title: "Payment and Billing Management",
-    image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by-.jpg'),
+    image: require('../assets/images/invoice-payments-flat-illustration-bill-pay-online-receipt-cartoon-concept-internet-banking-account-ebanking-user-credit-cards-transactions-instant-money-transfer-by.png'),
 
     points: [
       "View and manage resident payments, including due dates and amounts.",
@@ -148,7 +148,7 @@ const featuresData = [
   },
   {
     title: "Real-Time Notifications & Alerts",
-    image: require('../assets/images/new-notification-illustration-concept-vector.jpg'),
+    image: require('../assets/images/new-notification-illustration-concept-vector.png'),
 
     points: [
       "Receive instant notifications for requests, complaints, and other administrative tasks.",
@@ -158,7 +158,7 @@ const featuresData = [
   },
   {
     title: "Reports and Analytics",
-    image: require('../assets/images/data driven decisions.webp'),
+    image: require('../assets/images/data_driven_decisions__1.png'),
 
     points: [
       "Access comprehensive reports on resident activities, facility usage, payment history, and security events.",
@@ -168,7 +168,7 @@ const featuresData = [
   },
   {
     title: "Maintenance Management",
-    image: require('../assets/images/maintenance-concept-illustration_86047-562.avif'),
+    image: require('../assets/images/maintenance-concept-illustration_86047-562.png'),
 
     points: [
       "Track and manage maintenance requests submitted by residents.",
@@ -178,7 +178,7 @@ const featuresData = [
   },
   {
     title: "Incident & Complaint Management",
-    image: require('../assets/images/Grievance-procedure-background.jpg'),
+    image: require('../assets/images/Grievance-procedure-background.png'),
 
     points: [
       "Receive and manage complaints from residents, ensuring timely resolution.",

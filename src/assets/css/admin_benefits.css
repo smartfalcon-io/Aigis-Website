@@ -31,7 +31,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(225deg, #f8e9e9, #e7ecf0);
+  background: linear-gradient(225deg, #f79797, #f0e7f0);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 120%);
   z-index: -1;
   background-image: url('../images/vector6.jpg');
@@ -174,8 +174,9 @@
 
 .feature-image img {
   width: 350px;
-  height: auto;
+  height: 200px;
   border-radius: 8px;
+  margin-top: 20px;
 }
 
 .feature-content {
