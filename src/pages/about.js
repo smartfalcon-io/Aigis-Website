@@ -75,7 +75,7 @@ const About = () => {
           <p>Our vision is to redefine how hostels and co-living spaces operate by embracing modern technology. We aim to create a connected, automated, and intelligent management experience for property owners, staff, and residents.</p>
           <p>Our mission is to empower hostel managers with powerful tools that remove operational chaos, increase guest satisfaction, and ultimately grow their business.</p>
         </div>
-        <motion.img src={vision} alt='Vision and Mission' initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} />
+        <motion.img src={vision} alt='Vision and Mission' initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} className='core-img' />
       </motion.div>
 
       {/* Core Values Section with fade-in */}
@@ -89,7 +89,7 @@ const About = () => {
             <li><strong>Simplicity:</strong> Simple yet powerful tools designed with a user-first approach.</li>
           </ul>
         </div>
-        <motion.img src={coreValues} alt='Core Values' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} />
+        <motion.img src={coreValues} alt='Core Values' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} className='core-img' />
       </motion.div>
 
       {/* How We Help Section with fade-in */}
@@ -106,7 +106,7 @@ const About = () => {
             <li>Role-based access for admin, staff, and residents</li>
           </ul>
         </div>
-        <motion.img src={howWeHelp} alt='How We Help' initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} />
+        <motion.img src={howWeHelp} alt='How We Help' initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}  className='core-img'/>
       </motion.div>
 
       {/* Section 5 with fade-in and text slide-in */}

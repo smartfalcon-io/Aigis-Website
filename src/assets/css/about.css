@@ -170,13 +170,15 @@
   gap: 40px;
   padding: 40px 20px;
   flex-wrap: wrap;
+
 }
+
 
 .with-image img {
   max-width: 400px;
   width: 100%;
   border-radius: 12px;
-  height: auto;
+  height: 300px;
 }
 
 .with-image .text {
