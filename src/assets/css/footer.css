@@ -6,8 +6,8 @@
     text-align: center;
     border-top: 1px solid #ddd;
     margin-top: 50px;
-    background-image: url('../images/wp11325340.webp');
     object-fit: fill;
+    background-color: rgb(20, 19, 19);
 
   }
   
@@ -75,7 +75,7 @@
     padding-right: 80px;
   }
   
-  .footer-bottom a {
+  .footer-bottom a,p {
     text-decoration: none;
     color: #888484;
     font-weight: bold;

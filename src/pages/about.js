@@ -35,8 +35,8 @@ const About = () => {
       {/* Section 3 with fade-in and image sliding in */}
       <motion.div className='section3-about' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <div className='content'>
-          <p>Founded with the aim of revolutionizing the co-living industry, we bring years of experience in hospitality and technology to create a user-friendly and feature-rich solution. Our goal is to empower hostel owners and managers to provide an exceptional stay for their guests without the hassle of manual tracking and outdated systems.</p><br/>
-          <p>At Aigis, we believe that modern co-living spaces deserve smart, seamless, and efficient management tools that enhance both guest experience and operational efficiency. Our platform is designed to streamline day-to-day operations, automate administrative tasks, and ensure a stress-free environment for both residents and staff.</p>
+          <p className='matter'>Founded with the aim of revolutionizing the co-living industry, we bring years of experience in hospitality and technology to create a user-friendly and feature-rich solution. Our goal is to empower hostel owners and managers to provide an exceptional stay for their guests without the hassle of manual tracking and outdated systems.</p><br/>
+          <p className='matter'>At Aigis, we believe that modern co-living spaces deserve smart, seamless, and efficient management tools that enhance both guest experience and operational efficiency. Our platform is designed to streamline day-to-day operations, automate administrative tasks, and ensure a stress-free environment for both residents and staff.</p>
         </div>
         <motion.img src={h2} initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} />
       </motion.div>

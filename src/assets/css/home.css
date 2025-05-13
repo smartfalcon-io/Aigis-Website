@@ -27,9 +27,13 @@
     top: 60%;
     left: 15%;
     transform: translateY(-50%);
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
+}
+
+.slide-content p{
+    color: white;
 }
 
 .cta-button {
@@ -62,6 +66,7 @@
 .section2-content .para{
     text-align: justify;
     margin-left: 50px;
+    color: #000;
 }
 
 .section2-image {
@@ -118,7 +123,9 @@
 
 }
 
-
+.features-cards p{
+    color: #000;
+}
 
 .feature-card .feature-description{
     font-size: 17px;
@@ -152,7 +159,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('../images/Animated Shape (1).svg');
+    background-image: url('../images/Animated Shape (7).svg');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -224,7 +231,7 @@
 
 .management-container {
     display: flex;
-    background-image: url('../images/Mass\ Circles\ \(2\).svg');
+    background-image: url('../images/Mass\ Circles\ \(3\).svg');
     border-radius: 80px 0px 80px 0px;
     padding: 30px;
     flex-wrap: wrap;
@@ -239,7 +246,11 @@
     min-width: 200px;
     max-width: 300px;
     margin: 10px;
-    color: white;
+}
+
+
+.management-card p{
+    color: #000;
 }
 
 .bg-image .bg {
@@ -271,13 +282,15 @@
     padding: 50px 20px;
     background-color: #2E3359;
     margin-bottom: 100px;
+        background-image: url('../images/Shiny\ Overlay\ \(1\).svg');
+
   }
   
   .target-audiences-section .section-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .audiences-swiper {
@@ -324,11 +337,11 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('../images/wp11325340.webp');
+    background-image: url('../images/Rect\ Light.svg');
     background-size: cover;
     background-position: center;
     z-index: -1;
-    clip-path: polygon(0 5%, 100% 30%, 100% 85%, 0% 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 95%, 0% 95%);
   }
   
   /* Optional: dark overlay for better contrast */
@@ -364,23 +377,28 @@
     cursor: pointer;
     text-align: left;
     transition: box-shadow 0.3s ease;
-    background-color: rgb(180, 184, 188);
+    background-color: rgb(255, 255, 255);
+    background-image: url('../images/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.avif');
 }
   
   .benefit-card:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
   
+  .benefits-sections .sections-title{
+    color: #f2f2f2;
+  }
+
   .benefit-card h3 {
     margin-bottom: 15px;
     font-size: 1.5rem;
     color: #3d69ab;
   }
   
-  .benefit-card p {
+  .benefit-cards p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #333;
+    color: #1c1c1c;
   }
   
   .benefit-btn {

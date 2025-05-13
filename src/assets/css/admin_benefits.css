@@ -18,7 +18,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(199deg, #c7d7e2, #3e4246);
+  background: linear-gradient(199deg, #c97cf6, #9ea0a0);
   clip-path: polygon(0 12%, 100% 0, 100% 70%, 0 150%);
   z-index: -1;
 }
@@ -31,7 +31,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(225deg, #f79797, #f0e7f0);
+  background: linear-gradient(225deg, #c97cf6, #9ea0a0);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 120%);
   z-index: -1;
   background-image: url('../images/vector6.jpg');
@@ -150,7 +150,7 @@
   gap: 30px;
   margin: 2rem 0;
   padding: 1.5rem;
-  background-color: #b2c4e2;
+  background-color: #3b2050;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   flex-wrap: wrap;
@@ -187,13 +187,13 @@
 .feature-content .card-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 .feature-content .card-list li {
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  color: #000000;
+  color: #f3f1f1;
 }
 
 

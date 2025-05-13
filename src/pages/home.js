@@ -226,22 +226,22 @@ What’s more, our dedicated support team is always available to assist with any
         <h2 className="management-title">Optimizing Operations with Innovation</h2>
         <div className="management-container">
           <div className="management-card">
-            <h3>Seamless Automation</h3>
+            <h2>Seamless Automation</h2>
             <p>Automate tasks to reduce manual work and improve efficiency.</p>
           </div>
           <div className="management-card">
-            <h3>Advanced Security</h3>
+            <h2>Advanced Security</h2>
             <p>Enhanced security features to protect data and transactions.</p>
           </div>
           <div className="management-card">
-            <h3>Scalable Solutions</h3>
+            <h2>Scalable Solutions</h2>
             <p>Designed to scale with your growing business needs.</p>
           </div>
         </div>
       </section>
 
       <section className="benefits-sections">
-  <h2 className="section-title">Benefits of Aigis</h2>
+  <h2 className="sections-title">Benefits of Aigis</h2>
   <div className="benefits-container">
     <motion.div
       className="benefit-cards"
