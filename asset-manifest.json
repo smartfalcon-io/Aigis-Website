@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.92ede1a5.css",
-    "main.js": "/aigis-website/static/js/main.c03a3ebd.js",
+    "main.css": "/aigis-website/static/css/main.6943fca5.css",
+    "main.js": "/aigis-website/static/js/main.ec7c73ff.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
     "static/media/Blue Geometric Technology General Professional LinkedIn Banner.png": "/aigis-website/static/media/Blue Geometric Technology General Professional LinkedIn Banner.4214ddd2e31b6339e14d.png",
@@ -81,12 +81,12 @@
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.92ede1a5.css.map": "/aigis-website/static/css/main.92ede1a5.css.map",
-    "main.c03a3ebd.js.map": "/aigis-website/static/js/main.c03a3ebd.js.map",
+    "main.6943fca5.css.map": "/aigis-website/static/css/main.6943fca5.css.map",
+    "main.ec7c73ff.js.map": "/aigis-website/static/js/main.ec7c73ff.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ede1a5.css",
-    "static/js/main.c03a3ebd.js"
+    "static/css/main.6943fca5.css",
+    "static/js/main.ec7c73ff.js"
   ]
 }
