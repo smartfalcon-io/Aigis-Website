@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.7f3fa39d.css",
-    "main.js": "/aigis-website/static/js/main.5b86f236.js",
+    "main.css": "/aigis-website/static/css/main.f7afbda6.css",
+    "main.js": "/aigis-website/static/js/main.e597d190.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
     "static/media/Blue Geometric Technology General Professional LinkedIn Banner.png": "/aigis-website/static/media/Blue Geometric Technology General Professional LinkedIn Banner.4214ddd2e31b6339e14d.png",
@@ -74,19 +74,20 @@
     "static/media/professional-photo-background-1600-x-1200-7iofearku3xtq8fa.jpg": "/aigis-website/static/media/professional-photo-background-1600-x-1200-7iofearku3xtq8fa.b298b3c62b9b62077a07.jpg",
     "static/media/card.webp": "/aigis-website/static/media/card.11054d53297ef085099c.webp",
     "static/media/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.avif": "/aigis-website/static/media/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.fda3b64fa9ec178f20f5.avif",
-    "static/media/wp11325340.webp": "/aigis-website/static/media/wp11325340.fba5542854c9833904de.webp",
-    "static/media/Animated Shape (1).svg": "/aigis-website/static/media/Animated Shape (1).81813d211c956d9626d9.svg",
+    "static/media/Animated Shape (7).svg": "/aigis-website/static/media/Animated Shape (7).069f3f87ef6264fce122.svg",
+    "static/media/Mass Circles (3).svg": "/aigis-website/static/media/Mass Circles (3).b253e31284b2c2da8786.svg",
     "static/media/Mass Circles (2).svg": "/aigis-website/static/media/Mass Circles (2).82f6f69ccddb269fc5e0.svg",
     "static/media/simple-blue-gradient-background-vector-business_53876-174922.avif": "/aigis-website/static/media/simple-blue-gradient-background-vector-business_53876-174922.88d997fa71a81f12cf85.avif",
+    "static/media/Rect Light.svg": "/aigis-website/static/media/Rect Light.cef86d423f2a048a624c.svg",
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.7f3fa39d.css.map": "/aigis-website/static/css/main.7f3fa39d.css.map",
-    "main.5b86f236.js.map": "/aigis-website/static/js/main.5b86f236.js.map",
+    "main.f7afbda6.css.map": "/aigis-website/static/css/main.f7afbda6.css.map",
+    "main.e597d190.js.map": "/aigis-website/static/js/main.e597d190.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f3fa39d.css",
-    "static/js/main.5b86f236.js"
+    "static/css/main.f7afbda6.css",
+    "static/js/main.e597d190.js"
   ]
 }
