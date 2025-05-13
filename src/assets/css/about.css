@@ -49,7 +49,7 @@ p{
   margin: 30px auto;
   font-size: 18px;
   background-color: #d8d3d3;
-  background-image: url('../images/Mass\ Circles\ \(2\).svg');
+  background-image: url('../images/Mass\ Circles\ \(3\).svg');
   color: #d8d3d3;
   border-radius: 20px;
 }
@@ -66,7 +66,9 @@ p{
   margin-left: 30px;
 }
 .section3-about .content .matter{
-  color: #d8d3d3;
+  color: #000000;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .why-choose-us {
@@ -149,6 +151,7 @@ p{
   background-image: url('../images/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.avif');
   margin-top: 40px;
   border-radius: 12px;
+  object-fit: fill;
 }
 
 .section4 h2, .core-values h2, .how-we-help h2 {

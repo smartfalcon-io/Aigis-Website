@@ -6,7 +6,7 @@ import React from 'react'
 import '../assets/css/about.css';
 import Footer from '../components/footer';
 import { motion } from "framer-motion";
-import h1 from '../assets/images/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.png';
+import h1 from '../assets/images/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.70ce0f4a3858cdc89d3d (2).png';
 import h2 from '../assets/images/Hostel-Managemen-System.png';
 import all_in_one from '../assets/images/vector-light-bulb-icon.jpg';
 import user_friendly from '../assets/images/8878493.png';
