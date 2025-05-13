@@ -38,6 +38,7 @@ p{
   width: 70%;
   font-size: 18px;
   line-height: 1.6;
+  font-weight: normal;
 }
 
 .section3-about {
@@ -114,6 +115,7 @@ p{
 .feature p {
   font-size: 16px;
   text-align: justify;
+  font-weight: normal;
 }
 
 .section5 {
@@ -191,6 +193,9 @@ p{
 
 .with-image .text {
   flex: 1;
+}
+.with-image .text p{
+  font-weight: normal;
 }
 
 .reverse {

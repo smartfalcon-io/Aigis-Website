@@ -186,7 +186,7 @@ What’s more, our dedicated support team is always available to assist with any
                 transition={{ duration: 1 }}
               >
                 <h3>{audience.title}</h3>
-                <p>{audience.description}</p>
+                <p className='{audience-description'>{audience.description}</p>
               </motion.div>
             </SwiperSlide>
           ))}

@@ -67,6 +67,7 @@
     text-align: justify;
     margin-left: 50px;
     color: #000;
+    font-weight: normal;
 }
 
 .section2-image {
@@ -217,6 +218,7 @@
 .section-button{
     width: 150px;
     background-color: #cc5500;;
+    margin-left: -450px;
     
 }
 
@@ -319,6 +321,7 @@
   .audience-card p {
     font-size: 1rem;
     color: #666;
+    font-weight: normal;
   }
 
   .benefits-sections {
@@ -596,6 +599,7 @@
 
     .section-button{
         margin-top: 20px;
+        margin-left: 0;
     }
 
    

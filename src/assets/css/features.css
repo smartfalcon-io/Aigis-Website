@@ -71,6 +71,10 @@
 
 }
 
+  .feature-description {
+    font-weight: normal;
+  }
+
 /* --- FEATURE ITEM DESIGN --- */
 .feature-item {
   padding: 20px; /* Padding inside feature item */
