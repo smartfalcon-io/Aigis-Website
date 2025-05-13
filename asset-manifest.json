@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.f7afbda6.css",
-    "main.js": "/aigis-website/static/js/main.e597d190.js",
+    "main.css": "/aigis-website/static/css/main.92ede1a5.css",
+    "main.js": "/aigis-website/static/js/main.c03a3ebd.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
     "static/media/Blue Geometric Technology General Professional LinkedIn Banner.png": "/aigis-website/static/media/Blue Geometric Technology General Professional LinkedIn Banner.4214ddd2e31b6339e14d.png",
@@ -24,6 +24,7 @@
     "static/media/bg1.png": "/aigis-website/static/media/bg1.b33d558b404de3ce6cb7.png",
     "static/media/cyber-security-illustration-concept-flat-illustration-isolated-on-white-background-vector.png": "/aigis-website/static/media/cyber-security-illustration-concept-flat-illustration-isolated-on-white-background-vector.1e2c0e95be7b0da8ddac.png",
     "static/media/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.png": "/aigis-website/static/media/cost-reduction-illustration-with-decrease-price-minimising-or-falling-rate-of-profit-in-business-flat-cartoon-hand-drawn-templates-vector.427a3a9591d32aef4675.png",
+    "static/media/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k. (2).png": "/aigis-website/static/media/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.70ce0f4a3858cdc89d3d (2).12c4e8ad5149bb3ad132.png",
     "static/media/cheerful-man-got-approval-illustration-vector.png": "/aigis-website/static/media/cheerful-man-got-approval-illustration-vector.3ebeb2e4133217c38b51.png",
     "static/media/digital-security-access-illustration-concept-on-white-background-vector.png": "/aigis-website/static/media/digital-security-access-illustration-concept-on-white-background-vector.ec85f4ccaf92188e5246.png",
     "static/media/Grievance-procedure-background.png": "/aigis-website/static/media/Grievance-procedure-background.dc2776dbd5ad5058f94b.png",
@@ -37,7 +38,6 @@
     "static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900.jpg": "/aigis-website/static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900.455ea9730e204b52fd70.jpg",
     "static/media/oprtn_efficncy.png": "/aigis-website/static/media/oprtn_efficncy.d97c3d8527fc34d3fba9.png",
     "static/media/card-on-file-abstract-concept-illustration-storing-cardholder-information-payment-facilitation-card-on-file-transaction-save-details-consumer-credentials-reward-abstr.png": "/aigis-website/static/media/card-on-file-abstract-concept-illustration-storing-cardholder-information-payment-facilitation-card-on-file-transaction-save-details-consumer-credentials-reward-abstr.f4a951ae6bd39cfc4ad9.png",
-    "static/media/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.png": "/aigis-website/static/media/Operations-LinkedIn-Cover-Banner-2-qddl80ttyq771wdft0viuhh0v0myc680xcrrj6ki9k.70ce0f4a3858cdc89d3d.png",
     "static/media/data_driven_decisions__1.png": "/aigis-website/static/media/data_driven_decisions__1.01f835118577a9f9af33.png",
     "static/media/access-illustration-in-flat-style-vector.png": "/aigis-website/static/media/access-illustration-in-flat-style-vector.a3a01543a19d338f75dd.png",
     "static/media/maintenance-concept-illustration_86047-562.png": "/aigis-website/static/media/maintenance-concept-illustration_86047-562.337033ac9618a42d96bd.png",
@@ -76,18 +76,17 @@
     "static/media/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.avif": "/aigis-website/static/media/estilo-minimalista-de-fundo-de-onda-de-linha_483537-3578.fda3b64fa9ec178f20f5.avif",
     "static/media/Animated Shape (7).svg": "/aigis-website/static/media/Animated Shape (7).069f3f87ef6264fce122.svg",
     "static/media/Mass Circles (3).svg": "/aigis-website/static/media/Mass Circles (3).b253e31284b2c2da8786.svg",
-    "static/media/Mass Circles (2).svg": "/aigis-website/static/media/Mass Circles (2).82f6f69ccddb269fc5e0.svg",
     "static/media/simple-blue-gradient-background-vector-business_53876-174922.avif": "/aigis-website/static/media/simple-blue-gradient-background-vector-business_53876-174922.88d997fa71a81f12cf85.avif",
     "static/media/Rect Light.svg": "/aigis-website/static/media/Rect Light.cef86d423f2a048a624c.svg",
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.f7afbda6.css.map": "/aigis-website/static/css/main.f7afbda6.css.map",
-    "main.e597d190.js.map": "/aigis-website/static/js/main.e597d190.js.map",
+    "main.92ede1a5.css.map": "/aigis-website/static/css/main.92ede1a5.css.map",
+    "main.c03a3ebd.js.map": "/aigis-website/static/js/main.c03a3ebd.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7afbda6.css",
-    "static/js/main.e597d190.js"
+    "static/css/main.92ede1a5.css",
+    "static/js/main.c03a3ebd.js"
   ]
 }
