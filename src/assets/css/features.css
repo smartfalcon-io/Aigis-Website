@@ -73,6 +73,7 @@
 
   .feature-description {
     font-weight: normal;
+    color: wheat;
   }
 
 /* --- FEATURE ITEM DESIGN --- */
@@ -85,8 +86,9 @@
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space items apart */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
-  background-color: #ebedf0;
-  background-image: url('../images/Free-White-Background.jpg');
+  background-color: #075fdb6f;
+  background-image: url('../images/Wave\ Line\ \(1\).svg');
+  background-position: center;
 }
 
 /* --- ALIGNMENTS FOR LEFT AND RIGHT --- */

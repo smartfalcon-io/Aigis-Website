@@ -5,16 +5,16 @@ import Footer from '../components/footer';
 import { motion } from 'framer-motion';
 
 import tenant from '../assets/images/business-management-7172728-5829552.webp';
-import room from '../assets/images/istockphoto-1177943653-612x612.jpg';
-import security from '../assets/images/vector-awesome-cyber-security-vector-ai-eps-svg.jpg';
-import role_based from '../assets/images/role-based-access-control-rbac-main-1600.jpg';
+import room from '../assets/images/istockphoto-1177943653-612x612-removebg-preview.png';
+import security from '../assets/images/vector-awesome-cyber-security-vector-ai-eps-svg-removebg-preview.png';
+import role_based from '../assets/images/role-based-access-control-rbac-main-1600-removebg-preview.png';
 import payment from '../assets/images/payment_methods_vector_illustration_with_various_types_6825042.jpg';
 import analytics from '../assets/images/Analytics-PNG-Free-Download.png';
-import workflow from '../assets/images/63d10fc097974dcf47c049ee_How-To-Write-The-Perfect-Creative-Brief.gif';
+import workflow from '../assets/images/FB-Admins.png';
 import event from '../assets/images/event-management-6544578-5395861.webp';
 import staffApp from '../assets/images/maxresdefault.jpg';
-import user from '../assets/images/user access.webp';
-import safty from '../assets/images/What-Is-Managed-Hosting.jpg';
+import user from '../assets/images/user_access-removebg-preview.png';
+import safty from '../assets/images/What-Is-Managed-Hosting-removebg-preview.png';
 
 const Features = () => {
   const featuresList = [

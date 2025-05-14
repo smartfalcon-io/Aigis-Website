@@ -77,8 +77,9 @@ const Navbar = () => {
       </div>
       <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={() => setMenuOpen(false)}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
         <li><Link to="/features">Features</Link></li>
+        <li><Link to="/technology">Technology</Link></li>
+        <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
       <div className="menu-toggle" onClick={toggleMenu} role="button" aria-label="Toggle menu">
