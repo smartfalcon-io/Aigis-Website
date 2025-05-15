@@ -52,7 +52,7 @@ p{
   margin-left: 30px;
 }
 .section3-about .content .matter{
-  color: #000000;
+  color: #ffffff;
   line-height: 1.5;
   text-align: justify;
 }
@@ -242,19 +242,7 @@ p{
   .feature {
     max-width: 100%;
   }
-  .section5 img{
-    width: 100%;
-    object-fit: fill;
-  }
 
-  .section5 h1 {
-    font-size: 24px;
-    margin-left: 0;
-  }
-
-  .section5 .cta-button {
-    width: 60%;
-  }
 
   .section4, .core-values, .how-we-help {
     margin: 40px 20px;

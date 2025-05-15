@@ -106,12 +106,7 @@ const About = () => {
         <motion.img src={howWeHelp} alt='How We Help' initial={{ x: 200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}  className='core-img'/>
       </motion.div>
 
-      {/* Section 5 with fade-in and text slide-in */}
-      <motion.div className='section5' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <h1>
-          Transform<br/> Your Hostel<br/> Management Today
-        </h1>
-      </motion.div>
+
 
       <Footer />
     </div>

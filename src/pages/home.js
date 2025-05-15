@@ -8,8 +8,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules";
-import image1 from "../assets/images/pngtree-blue-business-technology-information-security-banner-background-image_260807.jpg";
-import image2 from "../assets/images/Blue Geometric Technology General Professional LinkedIn Banner.png";
+import image1 from "../assets/images/Simple Shiny (1).png";
+import image2 from "../assets/images/Untitled Design copy (1).png";
 import image3 from "../assets/images/White Minimalist Corporate Personal Profile LinkedIn Banner.png"
 import about from '../assets/images/about1.jpg';
 import bg from '../assets/images/bg1.png';
@@ -18,6 +18,7 @@ import image4 from '../assets/images/24.0-Co-LivingConcept-04-1-scaled-1600x900-
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { Swiper as AmenitySwiper, SwiperSlide as AmenitySlide } from "swiper/react";
+import FAQ from '../components/FAQ'
 
 const Home = () => {
   const navigate = useNavigate(); // Initialize useNavigate
@@ -116,11 +117,9 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-Whether you’re managing a cozy guesthouse or a large-scale co-living space, Aigis is the all-in-one solution designed to simplify your operations. Our platform streamlines room management, bookings, payments, and more, so you can focus on growing your business while we handle the details.
-Aigis offers a range of intuitive features that help you oversee every aspect of your operations effortlessly, from automated check-ins and real-time analytics to exceptional customer support. With our user-friendly interface, managing your property has never been easier. <br/><br/>
-We understand that data security is paramount in today’s digital world. That’s why Aigis employs top-tier security measures to ensure your data—and your guests' data—remains safe and protected at all times. From secure payment processing to encryption protocols, we take every step to guard your sensitive information. 
-What’s more, our dedicated support team is always available to assist with any questions or challenges you may encounter. Choose Aigis today and discover how our cutting-edge software is revolutionizing hostel and co-living space management.
-
+Aigis simplifies property management for guesthouses and co-living spaces. From room bookings and payments to automated check-ins and real-time analytics, our all-in-one platform handles it all—so you can focus on growing your business. <br/><br/>
+Designed with ease-of-use in mind, Aigis offers intuitive features and a user-friendly interface that makes managing operations seamless.<br/><br/>
+We prioritize data security with top-tier encryption and secure payment processing, ensuring both your and your guests' information stays protected. Plus, our dedicated support team is always here to help.
           </motion.p>
           <motion.img
             src={image4}
@@ -271,7 +270,7 @@ What’s more, our dedicated support team is always available to assist with any
   </div>
 </section>
 
-
+<FAQ/>
 
 
       <Footer />

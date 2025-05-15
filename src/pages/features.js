@@ -238,7 +238,7 @@ const Features = () => {
           <p className="quote">“One platform. Every feature you need.”</p>
         </div>
       </div>
-      <p className='sub'>
+      <p className='sub1'>
         Our platform is packed with powerful features designed to make managing your hostel or co-living space simple and efficient. <br />
         Check out some of the highlights below
       </p>

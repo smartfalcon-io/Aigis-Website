@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../assets/css/contact.css";
-import roomImage from "../assets/images/Contact.jpg";
+import roomImage from "../assets/images/recepcionista-clientes-1.webp";
 import Footer from "../components/footer";
 
 // Animation Variants

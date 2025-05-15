@@ -78,13 +78,13 @@
   border-radius: 8px;
   background-image: url('../images/Rect\ Light1.svg');
   width: 80%;
-  justify-items: center;
-  justify-self: center;
+  margin-left: 120px;
+  background-position: top;
 }
 
 .aigis-extra h2 {
   text-align: center;
-  color: #090909;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -99,6 +99,7 @@
   font-size: 1.1rem;
   position: relative;
   padding-left: 25px;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -117,8 +118,9 @@
   margin-top: 50px;
   width: 80%;
   background-image: url('../images/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg');
-  justify-self: center;
   border-radius: 10px;
+  margin-left: 120px;
+
 }
 
 .aigis-cta h2 {
@@ -151,7 +153,7 @@
 .aigis-extra p {
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   max-width: 900px;
   margin: 0 auto 15px;
@@ -207,6 +209,12 @@
   .aigis-extra li {
     font-size: 0.95rem;
     
+  }
+  .aigis-extra{
+    margin-left: 0px;
+  }
+  .aigis-cta{
+    margin-left: 10px;
   }
 
   .demo-button {

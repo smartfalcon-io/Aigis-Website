@@ -1,6 +1,6 @@
 
 
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import '../assets/css/technology.css';
 import didIcon from '../assets/images/decentralized-identity.png';
 import accessIcon from '../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.png';
@@ -10,40 +10,38 @@ import Footer from './footer';
 
 const Technology = () => {
 
+    const [isCalendlyLoaded, setIsCalendlyLoaded] = useState(false);
+
+
 useEffect(() => {
   const loadCalendly = () => {
-    if (!document.querySelector("#calendly-widget-script")) {
-      const script = document.createElement("script");
-      script.id = "calendly-widget-script";
-      script.src = "https://assets.calendly.com/assets/external/widget.js";
-      script.async = true;
-      script.onload = () => {
-        console.log("Calendly script loaded");
-      };
-      document.body.appendChild(script);
-    }
+      if (!document.querySelector("#calendly-widget-script")) {
+        const script = document.createElement("script");
+        script.id = "calendly-widget-script";
+        script.src = "https://assets.calendly.com/assets/external/widget.js";
+        script.async = true;
+        script.onload = () => {
+          console.log("Calendly script loaded");
+          setIsCalendlyLoaded(true); // Mark as loaded
+        };
+        document.body.appendChild(script);
+      } else {
+        // Script already exists, mark as loaded
+        setIsCalendlyLoaded(true);
+      }
+    };
+
+    loadCalendly();
+  }, []);
+
+  const openCalendly = () => {
+     window.open('https://calendly.com/goliudaykumar29');
+
   };
-
-  loadCalendly();
-}, []);
-
-
-const openCalendly = () => {
-  if (window.Calendly) {
-    window.Calendly.initPopupWidget({
-      url: 'https://calendly.com/goliudaykumar29',
-    });
-  } else {
-    console.error("Calendly widget script not loaded.");
-  }
-};
-
-
-
 
   return (
     <div className="aigis-container">
-      <h1>AIGIS - Revolutionizing Community Management with Decentralized Identity (DID)</h1>
+      <h1>Revolutionizing Community Management <br/> with <br/> Decentralized Identity (DID)</h1>
       
       <section className="aigis-intro">
         <p>
@@ -148,9 +146,10 @@ const openCalendly = () => {
           Join the growing number of communities leveraging blockchain and decentralized identity for smarter living.
           <br /><strong>Switch to Aigis today and future-proof your community management.</strong>
         </p>
-<button className="demo-button" onClick={openCalendly}>
-  Request a Demo
-</button>
+        <button className="demo-button" onClick={openCalendly} disabled={!isCalendlyLoaded}>
+          Request a Demo
+        </button>
+        {!isCalendlyLoaded && <p>Loading scheduling widget...</p>}
 
 
       </section>
