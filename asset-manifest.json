@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.4568208d.css",
-    "main.js": "/aigis-website/static/js/main.f74de29a.js",
+    "main.css": "/aigis-website/static/css/main.475835c3.css",
+    "main.js": "/aigis-website/static/js/main.003bcf49.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
-    "static/media/Blue Geometric Technology General Professional LinkedIn Banner.png": "/aigis-website/static/media/Blue Geometric Technology General Professional LinkedIn Banner.4214ddd2e31b6339e14d.png",
     "static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900-removebg.png": "/aigis-website/static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900-removebg.ee29210df2d66121a6a4.png",
     "static/media/Hostel-Management_02.webp": "/aigis-website/static/media/Hostel-Management_02.fa599c8b76707ff9223e.webp",
     "static/media/vector-light-bulb-icon.jpg": "/aigis-website/static/media/vector-light-bulb-icon.5ff6ace30e6f0c0046d3.jpg",
-    "static/media/Contact.jpg": "/aigis-website/static/media/Contact.754d0d79bdb02facb3f8.jpg",
     "static/media/Feature-Background.jpg": "/aigis-website/static/media/Feature-Background.da94f0127bda49d6151f.jpg",
     "static/media/White Minimalist Corporate Personal Profile LinkedIn Banner.png": "/aigis-website/static/media/White Minimalist Corporate Personal Profile LinkedIn Banner.e268dbfcd82bcbdb5279.png",
+    "static/media/Untitled Design copy (1).png": "/aigis-website/static/media/Untitled Design copy (1).9961715e27c8d5cb2844.png",
     "static/media/What-Is-Managed-Hosting-removebg-preview.png": "/aigis-website/static/media/What-Is-Managed-Hosting-removebg-preview.332c339875da8412e9a8.png",
     "static/media/user-experience-concept-vector-illustrated_951778-1467_1.png": "/aigis-website/static/media/user-experience-concept-vector-illustrated_951778-1467_1.c44a7ba8e100534a11c8.png",
     "static/media/f228047a-c4c8-4d99-a7f6-dc1c2e74dd7d_816x660.png": "/aigis-website/static/media/f228047a-c4c8-4d99-a7f6-dc1c2e74dd7d_816x660.0d0d40002d1f3cd65492.png",
@@ -64,13 +63,13 @@
     "static/media/event-management-6544578-5395861.webp": "/aigis-website/static/media/event-management-6544578-5395861.65d96879e26a6b0698c4.webp",
     "static/media/vector6.jpg": "/aigis-website/static/media/vector6.ecee28532aa806717c06.jpg",
     "static/media/payment_methods_vector_illustration_with_various_types_6825042.jpg": "/aigis-website/static/media/payment_methods_vector_illustration_with_various_types_6825042.b2d1bfdcac08c92b1ff5.jpg",
+    "static/media/recepcionista-clientes-1.webp": "/aigis-website/static/media/recepcionista-clientes-1.0d0261a3412566b967c9.webp",
     "static/media/Flexibility-and-scalability.png": "/aigis-website/static/media/Flexibility-and-scalability.4129d622ad03c32e1894.png",
     "static/media/8878493.png": "/aigis-website/static/media/8878493.d407900abf6095377fff.png",
     "static/media/hotel-service-people-cartoon-characters-staying-hostel-vector-illustration-luxury-accommodation-travelers-professional-172743072.webp": "/aigis-website/static/media/hotel-service-people-cartoon-characters-staying-hostel-vector-illustration-luxury-accommodation-travelers-professional-172743072.7614c93c55bc7efa4620.webp",
     "static/media/lock-circle-blue-1024.webp": "/aigis-website/static/media/lock-circle-blue-1024.70baada1505c7b860415.webp",
     "static/media/10098923.webp": "/aigis-website/static/media/10098923.3d7b49c073af3c2e666a.webp",
     "static/media/Free-White-Background.jpg": "/aigis-website/static/media/Free-White-Background.271008a4bb3a09185359.jpg",
-    "static/media/pngtree-blue-business-technology-information-security-banner-background-image_260807.jpg": "/aigis-website/static/media/pngtree-blue-business-technology-information-security-banner-background-image_260807.d1518550dae24d71ad96.jpg",
     "static/media/professional-photo-background-1600-x-1200-7iofearku3xtq8fa.jpg": "/aigis-website/static/media/professional-photo-background-1600-x-1200-7iofearku3xtq8fa.b298b3c62b9b62077a07.jpg",
     "static/media/Aigis-LOGO1.png": "/aigis-website/static/media/Aigis-LOGO1.fb64da07737420846e8d.png",
     "static/media/card.webp": "/aigis-website/static/media/card.11054d53297ef085099c.webp",
@@ -83,12 +82,12 @@
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.4568208d.css.map": "/aigis-website/static/css/main.4568208d.css.map",
-    "main.f74de29a.js.map": "/aigis-website/static/js/main.f74de29a.js.map",
+    "main.475835c3.css.map": "/aigis-website/static/css/main.475835c3.css.map",
+    "main.003bcf49.js.map": "/aigis-website/static/js/main.003bcf49.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4568208d.css",
-    "static/js/main.f74de29a.js"
+    "static/css/main.475835c3.css",
+    "static/js/main.003bcf49.js"
   ]
 }
