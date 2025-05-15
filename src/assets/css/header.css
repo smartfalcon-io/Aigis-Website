@@ -24,10 +24,8 @@
 }
  
 .logo img {
-  width: 140px;
   margin-right: 10px;
-  margin-top: -30px;
-  margin-bottom: -40px;
+  width: 80px;
 }
 
 .nav-links {
@@ -43,12 +41,12 @@
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: #5869E6;
   font-weight: bold;
 }
 
 .nav-links a:hover {
-  color: blue;
+  color: #132df1;
 }
 
 .menu-toggle {

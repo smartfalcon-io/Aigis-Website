@@ -21,10 +21,7 @@ const About = () => {
   return (
     <div className='about'>
       {/* Section 1 with fade-in effect */}
-      <motion.div className='about-section1' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-        <img src={h1} className='h1' />
-        <h1>About Us</h1>
-      </motion.div>
+
 
       {/* Section 2 with slide-in effect */}
       <motion.div className='about-section2' initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}>

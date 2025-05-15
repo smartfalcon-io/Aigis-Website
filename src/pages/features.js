@@ -257,9 +257,7 @@ const Features = () => {
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.95 }}
               >
-                <div className="feature-icon">
-                  <span>{feature.icon}</span>
-                </div>
+        
                 <div className="feature-details">
                   <h2 className="feature-title">{feature.title}</h2>
                   <p className="feature-description">{feature.description}</p>

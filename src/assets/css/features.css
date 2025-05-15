@@ -73,7 +73,8 @@
 
   .feature-description {
     font-weight: normal;
-    color: wheat;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
   }
 
 /* --- FEATURE ITEM DESIGN --- */
@@ -87,7 +88,7 @@
   justify-content: space-between; /* Space items apart */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
   background-color: #075fdb6f;
-  background-image: url('../images/Wave\ Line\ \(1\).svg');
+  background-image: url('../images/Wave\ Line\ \(3\).svg');
   background-position: center;
 }
 
@@ -103,15 +104,11 @@
 .sub{
   text-align: center;
   margin-top: 50px;
+  font-size: 17px;
 }
 
 /* --- ICON --- */
-.feature-icon {
-  font-size: 60px; /* Size of the icon */
-  color: #007bff; /* Color of the icon */
-  width: 80px; /* Fixed width for alignment */
-  text-align: center; /* Center icon within its div */
-}
+
 
 /* --- FEATURE DETAILS --- */
 .feature-details {
@@ -120,11 +117,11 @@
 }
 
 .left-align .feature-details {
-  margin-right: 20px; /* Space between image and details on left-align */
+  margin-left: 120px; /* Space between image and details on left-align */
 }
 
 .right-align .feature-details {
-  margin-left: 20px; /* Space between icon and details on right-align */
+  margin-left: 120px; /* Space between icon and details on right-align */
 }
 
 /* --- FEATURE IMAGE --- */

@@ -14,7 +14,7 @@ import image3 from "../assets/images/White Minimalist Corporate Personal Profile
 import about from '../assets/images/about1.jpg';
 import bg from '../assets/images/bg1.png';
 import Footer from '../components/footer';
-import image4 from '../assets/images/24.0-Co-LivingConcept-04-1-scaled-1600x900.jpg'
+import image4 from '../assets/images/24.0-Co-LivingConcept-04-1-scaled-1600x900-removebg.png'
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { Swiper as AmenitySwiper, SwiperSlide as AmenitySlide } from "swiper/react";

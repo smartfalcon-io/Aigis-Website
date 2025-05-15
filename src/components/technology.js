@@ -1,90 +1,6 @@
-// import React from 'react';
-// import '../assets/css/technology.css';
-// import didIcon from '../assets/images/decentralized-identity.png';
-// import accessIcon from '../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.png';
-// import visitorIcon from '../assets/images/visitor-management-hero.png';
-// import auditIcon from '../assets/images/audit-trail-removebg-preview.png';
-
-// const Technology = () => {
-//   return (
-//     <div className="aigis-container">
-//       <h1>AIGIS - Revolutionizing Community Management with Decentralized Identity (DID)</h1>
-//       <section className="aigis-intro">
-//         <p>
-//           In today’s digital era, managing communities—be it gated communities, co-living spaces, or hostels—requires a robust, secure, and scalable solution.
-//           <strong> Aigis</strong>, powered by Decentralized Identity (DID), redefines community operations with privacy-first, secure access and identity management.
-//         </p>
-//         <p>
-//           Utilizing blockchain-based technology, Aigis facilitates seamless interaction between admins and residents while ensuring data security, transparency, and reduced administrative overhead.
-//         </p>
-//       </section>
-
-//               <h2 className='name' align="center">Key Features of Aigis</h2>
-
-//       <div className="aigis-features">
-
-//         <div className="features-cards">
-//           <img src={didIcon} alt="Decentralized Identity" />
-//           <h3>Decentralized Control & Data Privacy</h3>
-//           <p>
-//             Aigis ensures residents maintain full control of their data using Blockchain and DID. By eliminating centralized data storage,
-//             it reduces risks of identity theft and enhances trust.
-//           </p>
-//         </div>
-
-//         <div className="features-cards">
-//           <img src={accessIcon} alt="Access Control" />
-//           <h3>Secure & Seamless Access Control</h3>
-//           <p>
-//             Issue, update, or revoke smart credentials in real-time. Aigis makes entry management for buildings and amenities both secure and paperless.
-//           </p>
-//         </div>
-
-//         <div className="features-cards">
-//           <img src={visitorIcon} alt="Visitor Management" />
-//           <h3>Automated Visitor Management</h3>
-//           <p>
-//             Admins and residents can easily manage guest access. Real-time visitor passes eliminate manual data collection and enhance security.
-//           </p>
-//         </div>
-
-//         <div className="features-cards">
-//           <img src={auditIcon} alt="Audit Trail" />
-//           <h3>Transparent & Immutable Audit Trails</h3>
-//           <p>
-//             All actions are recorded immutably on the blockchain. Admins gain real-time insights with tamper-proof audit logs for total transparency.
-//           </p>
-//         </div>
-//       </div>
-
-//             <section className="aigis-extra"> 
-//         <h2>Why Choose Aigis?</h2>
-//         <ul>
-//           <li><strong>Adaptable:</strong> From small housing societies to large smart cities, Aigis scales effortlessly.</li>
-//           <li><strong>User-Friendly:</strong> Clean UI for both admins and residents with mobile-friendly design.</li>
-//           <li><strong>Real-Time Operations:</strong> Instant updates and automated alerts help in proactive community management.</li>
-//           <li><strong>Environmentally Friendly:</strong> Go paperless with digital passes and smart identities.</li>
-//         </ul>
-//       </section>
-
-//       <section className="aigis-cta">
-//         <h2>Ready to Elevate Your Community?</h2>
-//         <p>
-//           Join the growing number of communities leveraging blockchain and decentralized identity for smarter living.
-//           <br /><strong>Switch to Aigis today and future-proof your community management.</strong>
-//         </p>
-//         <button className="cta-button">Request a Demo</button>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Technology;
 
 
-
-
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../assets/css/technology.css';
 import didIcon from '../assets/images/decentralized-identity.png';
 import accessIcon from '../assets/images/rights-acces-illustration-exclusive-design-inspiration_566886-415.png';
@@ -93,6 +9,38 @@ import auditIcon from '../assets/images/audit-trail-removebg-preview.png';
 import Footer from './footer';
 
 const Technology = () => {
+
+useEffect(() => {
+  const loadCalendly = () => {
+    if (!document.querySelector("#calendly-widget-script")) {
+      const script = document.createElement("script");
+      script.id = "calendly-widget-script";
+      script.src = "https://assets.calendly.com/assets/external/widget.js";
+      script.async = true;
+      script.onload = () => {
+        console.log("Calendly script loaded");
+      };
+      document.body.appendChild(script);
+    }
+  };
+
+  loadCalendly();
+}, []);
+
+
+const openCalendly = () => {
+  if (window.Calendly) {
+    window.Calendly.initPopupWidget({
+      url: 'https://calendly.com/goliudaykumar29',
+    });
+  } else {
+    console.error("Calendly widget script not loaded.");
+  }
+};
+
+
+
+
   return (
     <div className="aigis-container">
       <h1>AIGIS - Revolutionizing Community Management with Decentralized Identity (DID)</h1>
@@ -194,13 +142,17 @@ const Technology = () => {
         <p><strong>Secure. Efficient. Transparent.</strong></p>
       </section>
 
-      <section className="aigis-cta">
+    <section className="aigis-cta">
         <h2>Ready to Elevate Your Community?</h2>
         <p>
           Join the growing number of communities leveraging blockchain and decentralized identity for smarter living.
           <br /><strong>Switch to Aigis today and future-proof your community management.</strong>
         </p>
-        <button className="cta-button">Request a Demo</button>
+<button className="demo-button" onClick={openCalendly}>
+  Request a Demo
+</button>
+
+
       </section>
       <Footer />
     </div>
