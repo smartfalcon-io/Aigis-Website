@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.779796c8.css",
+    "main.css": "/aigis-website/static/css/main.89a9f903.css",
     "main.js": "/aigis-website/static/js/main.79b90a3f.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
@@ -84,12 +84,12 @@
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.779796c8.css.map": "/aigis-website/static/css/main.779796c8.css.map",
+    "main.89a9f903.css.map": "/aigis-website/static/css/main.89a9f903.css.map",
     "main.79b90a3f.js.map": "/aigis-website/static/js/main.79b90a3f.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.779796c8.css",
+    "static/css/main.89a9f903.css",
     "static/js/main.79b90a3f.js"
   ]
 }
