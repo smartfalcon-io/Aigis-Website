@@ -147,6 +147,10 @@ p{
   color: #2c3e50;
 }
 
+.active-link {
+  color: #5869E6;
+  border-bottom: 3px solid #5869E6;
+}
 
 
 .core-values ul, .how-we-help ul {
@@ -275,12 +279,12 @@ p{
   .about{
     align-items: center;
     align-self: center;
+    padding-top: 300px;
+
   }
 
  
-  .about-section1 .h1{
-    width: 100%;
-  }
+
   .about-section2{
     align-items: center;
   }

@@ -244,7 +244,7 @@ const Features = () => {
       </div>
       </div>
       <p className='sub1'>
-        Our platform is packed with powerful features designed to make managing your hostel or co-living space simple and efficient. <br />
+        Our platform is packed with powerful features designed to make managing your Resident or co-living space simple and efficient. <br />
         Check out some of the highlights below
       </p>
       <div className='section1'>
