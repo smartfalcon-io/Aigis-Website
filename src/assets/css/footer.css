@@ -122,6 +122,10 @@
     .footer {
       padding: 30px 15px;
     }
+
+    .footer-content{
+      margin-top: -250px;
+    }
   
     .footer-section h2,
     .footer-section h3 {

@@ -19,7 +19,7 @@
   height: 100%;
   width: 100%;
   background: linear-gradient(199deg,#5869E6, #9ea0a0);
-  clip-path: polygon(0 12%, 100% 0, 100% 70%, 0 150%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 150%);
   z-index: -1;
 }
 
@@ -241,6 +241,20 @@
   .features-section {
     padding: 1rem;
   }
+
+  .features-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(225deg,#5869E6, #9ea0a0);
+  clip-path: polygon(1%0 10%, 100% 0, 100% 100%, 0% 120%);
+  z-index: -1;
+  background-image: url('../images/vector6.jpg');
+
+}
 
   .feature-card {
     padding: 10px;
