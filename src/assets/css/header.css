@@ -74,8 +74,9 @@
   }
 
   .menu-toggle {
-    display: block;
     z-index: 1001; 
+     font-size: 24px;
+    margin-right: 50px;
   }
 }
 

@@ -499,6 +499,9 @@
     .feature-card {
         width: 80%;
     }
+    .features-button{
+        margin-left: 180px;
+    }
 
     .about-section-container {
         padding: 20px;
