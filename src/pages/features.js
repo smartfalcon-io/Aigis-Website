@@ -15,6 +15,9 @@ import event from '../assets/images/event-management-6544578-5395861.webp';
 import staffApp from '../assets/images/maxresdefault.jpg';
 import user from '../assets/images/user_access-removebg-preview.png';
 import safty from '../assets/images/What-Is-Managed-Hosting-removebg-preview.png';
+import data from '../assets/images/digital-data-protection-design-illustration-cyber-security-illustration-background-cloud-computing-network-safety-concept-free-png.webp';
+import admin from '../assets/images/3722637.webp'
+
 
 const Features = () => {
   const featuresList = [
@@ -75,7 +78,7 @@ const Features = () => {
           </ul>
         </>
       ),
-      image: security,
+      image: data,
     },
     {
       icon: "🛡️",
@@ -134,7 +137,7 @@ const Features = () => {
           </ul>
         </>
       ),
-      image: role_based,
+      image: admin,
     },
     {
       icon: "📊",
@@ -232,11 +235,13 @@ const Features = () => {
 
   return (
     <div className='features'>
-      <div className="features-header">
+      <div className='feature-body'>
+              <div className="features-header">
         <div className="features-heading">
           <h1>Our Features</h1>
           <p className="quote">“One platform. Every feature you need.”</p>
         </div>
+      </div>
       </div>
       <p className='sub1'>
         Our platform is packed with powerful features designed to make managing your hostel or co-living space simple and efficient. <br />
