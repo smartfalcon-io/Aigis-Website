@@ -185,7 +185,7 @@ We prioritize data security with top-tier encryption and secure payment processi
                 transition={{ duration: 1 }}
               >
                 <h3>{audience.title}</h3>
-                <p className='{audience-description'>{audience.description}</p>
+                <p className='audience-description'>{audience.description}</p>
               </motion.div>
             </SwiperSlide>
           ))}

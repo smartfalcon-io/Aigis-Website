@@ -173,12 +173,15 @@
   height: auto;
 }
   .feature-title {
-    font-size: 18px; /* Responsive title size for small screens */
+    font-size: 20px; /* Responsive title size for small screens */
   }
 
   .feature-description {
-    font-size: 14px; /* Responsive description size for small screens */
+    font-size: 16px; /* Responsive description size for small screens */
+        width: 100%;
+
   }
+
 
   .feature-item {
     flex-direction: column; /* Stack icon and details vertically */
@@ -207,6 +210,13 @@
     margin: 0; /* Remove margins in column layout */
     text-align: center; /* Center the text for better appearance */
   }
+
+  .feature-item{
+    width: 95%;
+    margin-left: -13px;
+  }
+
+
 }
 
 .left-align .feature-details ul,.right-align .feature-details ul {

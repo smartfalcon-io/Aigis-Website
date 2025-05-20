@@ -312,17 +312,14 @@ p{
   }
 
   .feature{
-    max-width: 90%;
-    margin-left: 50px;
+    max-width: 95%;
+    margin-left: 0px;
     text-align: center;
   }
-  
-  .feature h3 {
-    font-size: 16px;
-  }
+ 
 
   .feature p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
  .section5{
@@ -372,8 +369,12 @@ p{
   }
 
   .with-image .text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
+  }
+
+  .with-image .text p{
+    padding: 10px;
   }
 
   .core-values ul,
@@ -384,7 +385,8 @@ p{
 
   .core-values li,
   .how-we-help li {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 5px;
   }
 
   .section4 h2, .core-values h2, .how-we-help h2 {

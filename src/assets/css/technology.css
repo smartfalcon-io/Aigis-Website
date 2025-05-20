@@ -196,10 +196,15 @@
   }
 
   .aigis-intro p {
-    font-size: 1rem;
-    margin-left: 50px;
+    font-size: 16px;
+    margin-left: 15px;
     text-align: justify;
+    width: 90%;
 
+  }
+
+  .featuress-cards{
+    width: 88%;
   }
 
   .aigis-extra ul{
@@ -212,9 +217,11 @@
   }
   .aigis-extra{
     margin-left: 0px;
+    width: 83%;
   }
   .aigis-cta{
-    margin-left: 10px;
+    margin-left: 0px;
+    width: 88%;
   }
 
   .demo-button {

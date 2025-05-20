@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
   
           <div className="footer-section contact">
-            <h3>Contact</h3>
+            <h3>Address</h3>
             <p>T-Hub Phase 2, Plot No 1/C, Sy No 83/1,</p>
             <p>Raidurgam panmaktha, Hyderabad Knowledge City, Serilingampally,</p>
           <p>Hyderabad, Telangana - 500 081.</p>
