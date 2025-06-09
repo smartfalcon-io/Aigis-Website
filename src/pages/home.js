@@ -2,7 +2,7 @@
 
 
 
-import React,  { useRef } from 'react'
+import React,  { useRef, useEffect, useState } from 'react'
 import '../assets/css/home.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -24,6 +24,27 @@ const Home = () => {
   const navigate = useNavigate(); // Initialize useNavigate
   const swiperRef = useRef(null); // Ref for the main swiper
   const audienceSwiperRef = useRef(null); // Ref for the audience swiper
+
+  const [showHubspotForm, setShowHubspotForm] = useState(false);
+
+useEffect(() => {
+  if (showHubspotForm) {
+    const script = document.createElement("script");
+    script.src = "//js.hsforms.net/forms/embed/v2.js";
+    script.async = true;
+    script.onload = () => {
+      if (window.hbspt) {
+        window.hbspt.forms.create({
+          portalId: "44235887",
+          formId: "765d71c5-9868-4860-9002-b62d5e628b79",
+          region: "na1",
+          target: "#hubspot-form"
+        });
+      }
+    };
+    document.body.appendChild(script);
+  }
+}, [showHubspotForm]);
 
 
   const slides = [
@@ -101,14 +122,24 @@ const Home = () => {
               <div className="slide-content">
                 <h1>{slide.title}</h1>
                 <p>{slide.description}</p>
-                {index === 0 && (
-                  <button className="cta-button" onClick={() => navigate('/contact')}>Get Started</button>
-                )}
+                  {index === 0 && (
+                    <button className="cta-button" onClick={() => setShowHubspotForm(true)}>Get Started</button>
+                  )}
+
               </div>
             </motion.div>
           </SwiperSlide>
         ))}
       </Swiper>
+      {showHubspotForm && (
+          <div className="modal-overlay" onClick={() => setShowHubspotForm(false)}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              <button className="close-button" onClick={() => setShowHubspotForm(false)}>×</button>
+              <div id="hubspot-form" />
+            </div>
+          </div>
+        )}
+
       <div className="section2">
         <div className="section2-content">
           <motion.p
