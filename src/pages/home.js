@@ -123,7 +123,9 @@ useEffect(() => {
                 <h1>{slide.title}</h1>
                 <p>{slide.description}</p>
                   {index === 0 && (
-                    <button className="cta-button" onClick={() => setShowHubspotForm(true)}>Get Started</button>
+                    // <button className="cta-button" onClick={() => setShowHubspotForm(true)}>Get Started</button>
+                    <button className="cta-button" onClick={() => navigate('/technology#aigis-cta')}>Get Started</button>
+
                   )}
 
               </div>

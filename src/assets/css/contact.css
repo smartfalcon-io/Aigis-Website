@@ -209,3 +209,63 @@ button:hover {
     font-size: 18px;
   }
 }
+
+
+/* --- HUBSPOT FORM WRAPPER --- */
+#hubspotForm {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HubSpot Form Container inside your styled box */
+.contact-form .hs-form {
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* HubSpot Form Labels */
+.contact-form .hs-form-field label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* HubSpot Inputs */
+.contact-form .hs-form input[type="text"],
+.contact-form .hs-form input[type="email"],
+.contact-form .hs-form textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* HubSpot Submit Button */
+.contact-form .hs-form input[type="submit"] {
+  width: 93%;
+  padding: 12px;
+  background-color: #5869e6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form .hs-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Remove unnecessary spacing */
+.hs_error_rollup, .hs-form-required {
+  display: none !important;
+}
