@@ -32,7 +32,7 @@
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .slide-content p{
@@ -120,7 +120,7 @@
 }
 
 .section3 {
-    background-image: url('../images/Shiny\ Overlay\ \(1\).svg');
+    background-image: url('../images/Overlay1.svg');
     height: auto;
     border-radius: 30px;
     justify-content: center;
@@ -149,7 +149,7 @@
 .features-button{
     width: 150px;
     margin-top: 30px;
-    margin-left: 680px;
+    margin-left: 880px;
     margin-bottom: 30px;
     background-color: #ffffff;
     color: #5869E6;
@@ -270,7 +270,7 @@
 .section-button{
     width: 150px;
     background-color: #ffffff;;
-    margin-left: -450px;
+    margin-left: -650px;
     color: #5869E6;
     
 }
@@ -344,7 +344,7 @@
     padding: 50px 20px;
     background-color: #2E3359;
     margin-bottom: 100px;
-        background-image: url('../images/Shiny\ Overlay\ \(1\).svg');
+        background-image: url('../images/Overlay1.svg');
 
   }
   
