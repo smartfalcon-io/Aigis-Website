@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aigis-website/static/css/main.a121fabc.css",
-    "main.js": "/aigis-website/static/js/main.a97b5069.js",
+    "main.css": "/aigis-website/static/css/main.0b7059af.css",
+    "main.js": "/aigis-website/static/js/main.773873b9.js",
     "static/js/453.b36afdb8.chunk.js": "/aigis-website/static/js/453.b36afdb8.chunk.js",
     "static/media/14334.jpg": "/aigis-website/static/media/14334.d6e64895c4937ba88e11.jpg",
     "static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900-removebg.png": "/aigis-website/static/media/24.0-Co-LivingConcept-04-1-scaled-1600x900-removebg.ee29210df2d66121a6a4.png",
@@ -84,12 +84,12 @@
     "static/media/Curve Line.svg": "/aigis-website/static/media/Curve Line.4f8dec693014e83853cd.svg",
     "static/media/Shiny Overlay (1).svg": "/aigis-website/static/media/Shiny Overlay (1).f61892f0f04375a746f7.svg",
     "index.html": "/aigis-website/index.html",
-    "main.a121fabc.css.map": "/aigis-website/static/css/main.a121fabc.css.map",
-    "main.a97b5069.js.map": "/aigis-website/static/js/main.a97b5069.js.map",
+    "main.0b7059af.css.map": "/aigis-website/static/css/main.0b7059af.css.map",
+    "main.773873b9.js.map": "/aigis-website/static/js/main.773873b9.js.map",
     "453.b36afdb8.chunk.js.map": "/aigis-website/static/js/453.b36afdb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a121fabc.css",
-    "static/js/main.a97b5069.js"
+    "static/css/main.0b7059af.css",
+    "static/js/main.773873b9.js"
   ]
 }
