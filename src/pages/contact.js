@@ -87,6 +87,8 @@
 
 
 
+
+
 // import React, { useEffect } from "react";
 // import { motion } from "framer-motion";
 // import "../assets/css/contact.css";
@@ -104,25 +106,30 @@
 //   visible: { opacity: 1, x: 0, transition: { duration: 1 } }
 // };
 
-// const ContactUs = () => {
-// useEffect(() => {
-//   const script = document.createElement("script");
-//   script.src = "//js.hsforms.net/forms/embed/v2.js";
-//   script.type = "text/javascript";
-//   script.charset = "utf-8";
-//   script.onload = () => {
-//     if (window.hbspt) {
-//       window.hbspt.forms.create({
-//         portalId: "44235887",
-//         formId: "765d71c5-9868-4860-9002-b62d5e628b79",
-//         target: "#hubspotForm",
-//         region: "na1"
-//       });
-//     }
-//   };
-//   document.body.appendChild(script);
-// }, []);
+// // HubSpot Embed Component
+// const HubspotEmbed = () => {
+//   useEffect(() => {
+//     const script = document.createElement("script");
+//     script.src = "//js.hsforms.net/forms/embed/v2.js";
+//     script.type = "text/javascript";
+//     script.charset = "utf-8";
+//     script.onload = () => {
+//       if (window.hbspt) {
+//         window.hbspt.forms.create({
+//           portalId: "44235887",
+//           formId: "765d71c5-9868-4860-9002-b62d5e628b79",
+//           region: "na1",
+//           target: "#hubspotForm"
+//         });
+//       }
+//     };
+//     document.body.appendChild(script);
+//   }, []);
 
+//   return <div id="hubspotForm"></div>;
+// };
+
+// const ContactUs = () => {
 //   return (
 //     <div>
 //       <motion.section
@@ -131,16 +138,17 @@
 //         whileInView="visible"
 //         viewport={{ once: true }}
 //       >
+//         {/* Left Image */}
 //         <motion.div className="contact-image" variants={slideInLeft}>
 //           <img src={roomImage} alt="Hostel Room" />
 //         </motion.div>
 
+//         {/* Right Form */}
 //         <motion.div className="contact-form" variants={slideInRight}>
 //           <h2>Contact Us</h2>
-//           <div id="hubspotForm" />
+//           <HubspotEmbed />
 //         </motion.div>
 //       </motion.section>
-
 //       <Footer />
 //     </div>
 //   );
@@ -151,7 +159,7 @@
 
 
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../assets/css/contact.css";
 import roomImage from "../assets/images/recepcionista-clientes-1.webp";
@@ -168,8 +176,10 @@ const slideInRight = {
   visible: { opacity: 1, x: 0, transition: { duration: 1 } }
 };
 
-// HubSpot Embed Component
+// HubSpot Form Embed with Loader
 const HubspotEmbed = () => {
+  const [isFormLoaded, setIsFormLoaded] = useState(false);
+
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "//js.hsforms.net/forms/embed/v2.js";
@@ -181,14 +191,25 @@ const HubspotEmbed = () => {
           portalId: "44235887",
           formId: "765d71c5-9868-4860-9002-b62d5e628b79",
           region: "na1",
-          target: "#hubspotForm"
+          target: "#hubspotForm",
+          onFormReady: () => setIsFormLoaded(true)
         });
       }
     };
     document.body.appendChild(script);
   }, []);
 
-  return <div id="hubspotForm"></div>;
+  return (
+    <div>
+      {!isFormLoaded && (
+        <div className="hubspot-loader">
+          <div className="spinner"></div>
+          <p>Loading form...</p>
+        </div>
+      )}
+      <div id="hubspotForm" />
+    </div>
+  );
 };
 
 const ContactUs = () => {
@@ -200,12 +221,10 @@ const ContactUs = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        {/* Left Image */}
         <motion.div className="contact-image" variants={slideInLeft}>
           <img src={roomImage} alt="Hostel Room" />
         </motion.div>
 
-        {/* Right Form */}
         <motion.div className="contact-form" variants={slideInRight}>
           <h2>Contact Us</h2>
           <HubspotEmbed />
